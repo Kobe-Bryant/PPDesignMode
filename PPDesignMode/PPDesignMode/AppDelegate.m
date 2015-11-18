@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "PPOperation.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,32 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+   
+    /* first version
+     double number1 = 0;
+     double number2 = 0;
+     char ch;//操作
+     double ret = 0;
+     printf("请输入第一个数字");
+     scanf("%lf",&number1);
+     printf("请输入第二个数字");
+     scanf("%lf",&number2);
+     printf("请输入操作符");
+     getchar();
+     scanf("%c",&ch);
+     PPOperation* operation = [[PPOperation alloc]init];
+     ret = [operation getResultNumber1:number1 number2:number2 string:ch];
+     NSLog(@"ret = %lf",ret);
+     */
+    
+    /* second version
+     
+     
+     
+     
+     */
+    
+
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
