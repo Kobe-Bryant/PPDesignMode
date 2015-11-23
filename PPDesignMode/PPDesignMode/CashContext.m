@@ -40,6 +40,7 @@
                 break;
             case 2:
             {
+                
                 CashRebate*  cash = [[CashRebate alloc]init];
                 cash.rebate = 0.8;
                 _cash = cash;
