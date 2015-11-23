@@ -15,6 +15,10 @@
 		E2DB3A911BFC18420014C757 /* PPDesignModeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3A901BFC18420014C757 /* PPDesignModeUITests.m */; };
 		E2DB3AA21BFC18820014C757 /* PPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3AA11BFC18820014C757 /* PPOperation.m */; };
 		E2DB3AA51BFC18930014C757 /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3AA41BFC18930014C757 /* Operation.m */; };
+		E2DB3AA81BFC1E4A0014C757 /* OperationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3AA71BFC1E4A0014C757 /* OperationAdd.m */; };
+		E2DB3AAB1BFC1E5C0014C757 /* OperationSub.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3AAA1BFC1E5C0014C757 /* OperationSub.m */; };
+		E2DB3AAE1BFC1E710014C757 /* OperationMul.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3AAD1BFC1E710014C757 /* OperationMul.m */; };
+		E2DB3AB11BFC1E940014C757 /* OperationDiv.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3AB01BFC1E940014C757 /* OperationDiv.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,14 @@
 		E2DB3AA11BFC18820014C757 /* PPOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOperation.m; sourceTree = "<group>"; };
 		E2DB3AA31BFC18930014C757 /* Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
 		E2DB3AA41BFC18930014C757 /* Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operation.m; sourceTree = "<group>"; };
+		E2DB3AA61BFC1E4A0014C757 /* OperationAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationAdd.h; sourceTree = "<group>"; };
+		E2DB3AA71BFC1E4A0014C757 /* OperationAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationAdd.m; sourceTree = "<group>"; };
+		E2DB3AA91BFC1E5C0014C757 /* OperationSub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationSub.h; sourceTree = "<group>"; };
+		E2DB3AAA1BFC1E5C0014C757 /* OperationSub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationSub.m; sourceTree = "<group>"; };
+		E2DB3AAC1BFC1E710014C757 /* OperationMul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationMul.h; sourceTree = "<group>"; };
+		E2DB3AAD1BFC1E710014C757 /* OperationMul.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationMul.m; sourceTree = "<group>"; };
+		E2DB3AAF1BFC1E940014C757 /* OperationDiv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationDiv.h; sourceTree = "<group>"; };
+		E2DB3AB01BFC1E940014C757 /* OperationDiv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationDiv.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +166,14 @@
 			children = (
 				E2DB3AA31BFC18930014C757 /* Operation.h */,
 				E2DB3AA41BFC18930014C757 /* Operation.m */,
+				E2DB3AA61BFC1E4A0014C757 /* OperationAdd.h */,
+				E2DB3AA71BFC1E4A0014C757 /* OperationAdd.m */,
+				E2DB3AA91BFC1E5C0014C757 /* OperationSub.h */,
+				E2DB3AAA1BFC1E5C0014C757 /* OperationSub.m */,
+				E2DB3AAC1BFC1E710014C757 /* OperationMul.h */,
+				E2DB3AAD1BFC1E710014C757 /* OperationMul.m */,
+				E2DB3AAF1BFC1E940014C757 /* OperationDiv.h */,
+				E2DB3AB01BFC1E940014C757 /* OperationDiv.m */,
 			);
 			name = "second method";
 			sourceTree = "<group>";
@@ -287,10 +307,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2DB3AAE1BFC1E710014C757 /* OperationMul.m in Sources */,
+				E2DB3AAB1BFC1E5C0014C757 /* OperationSub.m in Sources */,
 				E2DB3A761BFC18410014C757 /* main.m in Sources */,
 				E2DB3A731BFC18410014C757 /* AppDelegate.m in Sources */,
 				E2DB3AA21BFC18820014C757 /* PPOperation.m in Sources */,
+				E2DB3AB11BFC1E940014C757 /* OperationDiv.m in Sources */,
 				E2DB3AA51BFC18930014C757 /* Operation.m in Sources */,
+				E2DB3AA81BFC1E4A0014C757 /* OperationAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +535,7 @@
 				E2DB3A971BFC18420014C757 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2DB3A981BFC18420014C757 /* Build configuration list for PBXNativeTarget "PPDesignModeTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +544,7 @@
 				E2DB3A9A1BFC18420014C757 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2DB3A9B1BFC18420014C757 /* Build configuration list for PBXNativeTarget "PPDesignModeUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +553,7 @@
 				E2DB3A9D1BFC18420014C757 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
