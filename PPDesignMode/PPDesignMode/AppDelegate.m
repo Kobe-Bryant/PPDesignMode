@@ -8,8 +8,10 @@
 
 #import "AppDelegate.h"
 #import "PPOperation.h"
-#import "Operation.h"
 #import "OperationFactory.h"
+#import "CashFactory.h"
+#import "CashContext.h"
+
 
 @interface AppDelegate ()
 
@@ -20,7 +22,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
    
-    NSLog(@"test");
+    
     /* first version
      double number1 = 0;
      double number2 = 0;
@@ -38,7 +40,6 @@
      NSLog(@"ret = %lf",ret);
      */
     
-    
     //1.简单工厂模式
     // second version
     /*
@@ -50,7 +51,61 @@
     NSLog(@"result =%f",result);
     */
     
-     
+    
+    /* first version
+    double price = 0.0f;
+    double result =0.0f;
+    NSInteger count = 0;
+    printf("请输入商品的价格:");
+    scanf("%lf",&price);
+    printf("请输入数量");
+    scanf("%ld",&count);
+    result = count*price;
+    NSLog(@"总价为:%f",result);
+    */
+    
+    //1.策略模式
+    // second version
+    /*
+    double result = 0.0f;
+    CashSuper* cash;
+    cash = [CashFactory createCashType:3];
+    result = [cash getGoodsOrginPrice:300];
+    NSLog(@"result = %f",result);
+    */
+    
+    //third version 策略模式和工厂模式的组合
+    double result = 0.0f;
+    CashContext* content = [[CashContext alloc]initCashContextType:3];
+    result = [content getResult:300];
+    NSLog(@"normal result = %f type = %@",result,content.typeString);
+
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
 
 }
