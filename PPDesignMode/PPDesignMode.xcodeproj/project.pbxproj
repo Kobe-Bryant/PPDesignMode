@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E279F4111C02ED89004A20AD /* OperationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4101C02ED89004A20AD /* OperationFactory.m */; };
 		E2DB3A731BFC18410014C757 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3A721BFC18410014C757 /* AppDelegate.m */; };
 		E2DB3A761BFC18410014C757 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3A751BFC18410014C757 /* main.m */; };
 		E2DB3A781BFC18410014C757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2DB3A771BFC18410014C757 /* Assets.xcassets */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E279F40F1C02ED89004A20AD /* OperationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationFactory.h; sourceTree = "<group>"; };
+		E279F4101C02ED89004A20AD /* OperationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationFactory.m; sourceTree = "<group>"; };
 		E2DB3A6E1BFC18410014C757 /* PPDesignMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPDesignMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DB3A711BFC18410014C757 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2DB3A721BFC18410014C757 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -174,6 +177,8 @@
 				E2DB3AAD1BFC1E710014C757 /* OperationMul.m */,
 				E2DB3AAF1BFC1E940014C757 /* OperationDiv.h */,
 				E2DB3AB01BFC1E940014C757 /* OperationDiv.m */,
+				E279F40F1C02ED89004A20AD /* OperationFactory.h */,
+				E279F4101C02ED89004A20AD /* OperationFactory.m */,
 			);
 			name = "second method";
 			sourceTree = "<group>";
@@ -312,6 +317,7 @@
 				E2DB3A761BFC18410014C757 /* main.m in Sources */,
 				E2DB3A731BFC18410014C757 /* AppDelegate.m in Sources */,
 				E2DB3AA21BFC18820014C757 /* PPOperation.m in Sources */,
+				E279F4111C02ED89004A20AD /* OperationFactory.m in Sources */,
 				E2DB3AB11BFC1E940014C757 /* OperationDiv.m in Sources */,
 				E2DB3AA51BFC18930014C757 /* Operation.m in Sources */,
 				E2DB3AA81BFC1E4A0014C757 /* OperationAdd.m in Sources */,

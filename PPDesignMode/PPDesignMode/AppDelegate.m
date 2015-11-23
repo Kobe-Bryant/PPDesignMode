@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "PPOperation.h"
+#import "Operation.h"
+#import "OperationFactory.h"
 
 @interface AppDelegate ()
 
@@ -36,13 +38,19 @@
      NSLog(@"ret = %lf",ret);
      */
     
-    /* second version
+    
+    //1.简单工厂模式
+    // second version
+    /*
+    Operation* operation;
+    operation = [OperationFactory createOperation:@"-"];
+    operation.numberA = 1;
+    operation.numberB =2;
+    double result = operation.getResult;
+    NSLog(@"result =%f",result);
+    */
+    
      
-     
-     
-     
-     
-     */
     
 
 }

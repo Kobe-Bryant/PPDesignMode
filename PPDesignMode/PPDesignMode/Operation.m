@@ -8,6 +8,7 @@
 
 #import "Operation.h"
 
+
 @interface Operation()
 {
     double number1;
@@ -42,9 +43,6 @@
 {
     double result = 0;
     return result;
-
 }
-
-
 
 @end
