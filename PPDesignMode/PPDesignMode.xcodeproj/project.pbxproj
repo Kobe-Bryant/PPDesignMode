@@ -121,13 +121,13 @@
 			name = "FactoryPattern(简单工厂模式)";
 			sourceTree = "<group>";
 		};
-		E279F4131C02F79E004A20AD /* StrategyPattern(策略模式) */ = {
+		E279F4131C02F79E004A20AD /* StrategyPattern(策略模式+工厂模式) */ = {
 			isa = PBXGroup;
 			children = (
 				E279F4151C02FBD4004A20AD /* second method */,
 				E279F4141C02F8B8004A20AD /* first method */,
 			);
-			name = "StrategyPattern(策略模式)";
+			name = "StrategyPattern(策略模式+工厂模式)";
 			sourceTree = "<group>";
 		};
 		E279F4141C02F8B8004A20AD /* first method */ = {
@@ -179,7 +179,7 @@
 		E2DB3A701BFC18410014C757 /* PPDesignMode */ = {
 			isa = PBXGroup;
 			children = (
-				E279F4131C02F79E004A20AD /* StrategyPattern(策略模式) */,
+				E279F4131C02F79E004A20AD /* StrategyPattern(策略模式+工厂模式) */,
 				E279F4121C02F74B004A20AD /* FactoryPattern(简单工厂模式) */,
 				E2DB3A711BFC18410014C757 /* AppDelegate.h */,
 				E2DB3A721BFC18410014C757 /* AppDelegate.m */,

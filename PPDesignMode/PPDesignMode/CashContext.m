@@ -52,8 +52,7 @@
                 CashReturn* cash = [[CashReturn alloc]initCashReturn:300 returnMoney:100];
                 _cash = cash;
                 _typeString = @"return";
-
-            }
+          }
                 break;
             default:
                 break;
