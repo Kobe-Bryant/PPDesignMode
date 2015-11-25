@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E279F4111C02ED89004A20AD /* OperationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4101C02ED89004A20AD /* OperationFactory.m */; };
-		E279F4181C02FBF4004A20AD /* CashSuper.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4171C02FBF4004A20AD /* CashSuper.m */; };
-		E279F41B1C02FC16004A20AD /* CashNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F41A1C02FC16004A20AD /* CashNormal.m */; };
-		E279F41E1C02FC36004A20AD /* CashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F41D1C02FC36004A20AD /* CashRebate.m */; };
-		E279F4211C02FC4C004A20AD /* CashReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4201C02FC4C004A20AD /* CashReturn.m */; };
-		E279F4241C030032004A20AD /* CashFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4231C030032004A20AD /* CashFactory.m */; };
-		E279F4271C030B97004A20AD /* CashContext.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4261C030B97004A20AD /* CashContext.m */; };
+		E279F4371C0589F5004A20AD /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F42A1C0589F5004A20AD /* Operation.m */; };
+		E279F4381C0589F5004A20AD /* OperationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F42C1C0589F5004A20AD /* OperationAdd.m */; };
+		E279F4391C0589F5004A20AD /* OperationDiv.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F42E1C0589F5004A20AD /* OperationDiv.m */; };
+		E279F43A1C0589F5004A20AD /* OperationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4301C0589F5004A20AD /* OperationFactory.m */; };
+		E279F43B1C0589F5004A20AD /* OperationMul.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4321C0589F5004A20AD /* OperationMul.m */; };
+		E279F43C1C0589F5004A20AD /* OperationSub.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4341C0589F5004A20AD /* OperationSub.m */; };
+		E279F43D1C0589F5004A20AD /* PPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4361C0589F5004A20AD /* PPOperation.m */; };
+		E279F44A1C058A2A004A20AD /* CashContext.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F43F1C058A2A004A20AD /* CashContext.m */; };
+		E279F44B1C058A2A004A20AD /* CashFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4411C058A2A004A20AD /* CashFactory.m */; };
+		E279F44C1C058A2A004A20AD /* CashNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4431C058A2A004A20AD /* CashNormal.m */; };
+		E279F44D1C058A2A004A20AD /* CashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4451C058A2A004A20AD /* CashRebate.m */; };
+		E279F44E1C058A2A004A20AD /* CashReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4471C058A2A004A20AD /* CashReturn.m */; };
+		E279F44F1C058A2A004A20AD /* CashSuper.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4491C058A2A004A20AD /* CashSuper.m */; };
 		E2DB3A731BFC18410014C757 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3A721BFC18410014C757 /* AppDelegate.m */; };
 		E2DB3A761BFC18410014C757 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3A751BFC18410014C757 /* main.m */; };
 		E2DB3A781BFC18410014C757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2DB3A771BFC18410014C757 /* Assets.xcassets */; };
 		E2DB3A7B1BFC18410014C757 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2DB3A791BFC18410014C757 /* MainMenu.xib */; };
 		E2DB3A861BFC18420014C757 /* PPDesignModeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3A851BFC18420014C757 /* PPDesignModeTests.m */; };
 		E2DB3A911BFC18420014C757 /* PPDesignModeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3A901BFC18420014C757 /* PPDesignModeUITests.m */; };
-		E2DB3AA21BFC18820014C757 /* PPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3AA11BFC18820014C757 /* PPOperation.m */; };
-		E2DB3AA51BFC18930014C757 /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3AA41BFC18930014C757 /* Operation.m */; };
-		E2DB3AA81BFC1E4A0014C757 /* OperationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3AA71BFC1E4A0014C757 /* OperationAdd.m */; };
-		E2DB3AAB1BFC1E5C0014C757 /* OperationSub.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3AAA1BFC1E5C0014C757 /* OperationSub.m */; };
-		E2DB3AAE1BFC1E710014C757 /* OperationMul.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3AAD1BFC1E710014C757 /* OperationMul.m */; };
-		E2DB3AB11BFC1E940014C757 /* OperationDiv.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3AB01BFC1E940014C757 /* OperationDiv.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,20 +46,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E279F40F1C02ED89004A20AD /* OperationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationFactory.h; sourceTree = "<group>"; };
-		E279F4101C02ED89004A20AD /* OperationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationFactory.m; sourceTree = "<group>"; };
-		E279F4161C02FBF4004A20AD /* CashSuper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashSuper.h; sourceTree = "<group>"; };
-		E279F4171C02FBF4004A20AD /* CashSuper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashSuper.m; sourceTree = "<group>"; };
-		E279F4191C02FC16004A20AD /* CashNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashNormal.h; sourceTree = "<group>"; };
-		E279F41A1C02FC16004A20AD /* CashNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashNormal.m; sourceTree = "<group>"; };
-		E279F41C1C02FC36004A20AD /* CashRebate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashRebate.h; sourceTree = "<group>"; };
-		E279F41D1C02FC36004A20AD /* CashRebate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashRebate.m; sourceTree = "<group>"; };
-		E279F41F1C02FC4C004A20AD /* CashReturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashReturn.h; sourceTree = "<group>"; };
-		E279F4201C02FC4C004A20AD /* CashReturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashReturn.m; sourceTree = "<group>"; };
-		E279F4221C030032004A20AD /* CashFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashFactory.h; sourceTree = "<group>"; };
-		E279F4231C030032004A20AD /* CashFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashFactory.m; sourceTree = "<group>"; };
-		E279F4251C030B97004A20AD /* CashContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashContext.h; sourceTree = "<group>"; };
-		E279F4261C030B97004A20AD /* CashContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashContext.m; sourceTree = "<group>"; };
+		E279F4291C0589F5004A20AD /* Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Operation.h; path = "FactoryPattern(简单工厂模式)/Operation.h"; sourceTree = "<group>"; };
+		E279F42A1C0589F5004A20AD /* Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Operation.m; path = "FactoryPattern(简单工厂模式)/Operation.m"; sourceTree = "<group>"; };
+		E279F42B1C0589F5004A20AD /* OperationAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OperationAdd.h; path = "FactoryPattern(简单工厂模式)/OperationAdd.h"; sourceTree = "<group>"; };
+		E279F42C1C0589F5004A20AD /* OperationAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OperationAdd.m; path = "FactoryPattern(简单工厂模式)/OperationAdd.m"; sourceTree = "<group>"; };
+		E279F42D1C0589F5004A20AD /* OperationDiv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OperationDiv.h; path = "FactoryPattern(简单工厂模式)/OperationDiv.h"; sourceTree = "<group>"; };
+		E279F42E1C0589F5004A20AD /* OperationDiv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OperationDiv.m; path = "FactoryPattern(简单工厂模式)/OperationDiv.m"; sourceTree = "<group>"; };
+		E279F42F1C0589F5004A20AD /* OperationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OperationFactory.h; path = "FactoryPattern(简单工厂模式)/OperationFactory.h"; sourceTree = "<group>"; };
+		E279F4301C0589F5004A20AD /* OperationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OperationFactory.m; path = "FactoryPattern(简单工厂模式)/OperationFactory.m"; sourceTree = "<group>"; };
+		E279F4311C0589F5004A20AD /* OperationMul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OperationMul.h; path = "FactoryPattern(简单工厂模式)/OperationMul.h"; sourceTree = "<group>"; };
+		E279F4321C0589F5004A20AD /* OperationMul.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OperationMul.m; path = "FactoryPattern(简单工厂模式)/OperationMul.m"; sourceTree = "<group>"; };
+		E279F4331C0589F5004A20AD /* OperationSub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OperationSub.h; path = "FactoryPattern(简单工厂模式)/OperationSub.h"; sourceTree = "<group>"; };
+		E279F4341C0589F5004A20AD /* OperationSub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OperationSub.m; path = "FactoryPattern(简单工厂模式)/OperationSub.m"; sourceTree = "<group>"; };
+		E279F4351C0589F5004A20AD /* PPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPOperation.h; path = "FactoryPattern(简单工厂模式)/PPOperation.h"; sourceTree = "<group>"; };
+		E279F4361C0589F5004A20AD /* PPOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPOperation.m; path = "FactoryPattern(简单工厂模式)/PPOperation.m"; sourceTree = "<group>"; };
+		E279F43E1C058A2A004A20AD /* CashContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CashContext.h; path = "StrategyPattern(策略模式+工厂模式)/CashContext.h"; sourceTree = "<group>"; };
+		E279F43F1C058A2A004A20AD /* CashContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CashContext.m; path = "StrategyPattern(策略模式+工厂模式)/CashContext.m"; sourceTree = "<group>"; };
+		E279F4401C058A2A004A20AD /* CashFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CashFactory.h; path = "StrategyPattern(策略模式+工厂模式)/CashFactory.h"; sourceTree = "<group>"; };
+		E279F4411C058A2A004A20AD /* CashFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CashFactory.m; path = "StrategyPattern(策略模式+工厂模式)/CashFactory.m"; sourceTree = "<group>"; };
+		E279F4421C058A2A004A20AD /* CashNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CashNormal.h; path = "StrategyPattern(策略模式+工厂模式)/CashNormal.h"; sourceTree = "<group>"; };
+		E279F4431C058A2A004A20AD /* CashNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CashNormal.m; path = "StrategyPattern(策略模式+工厂模式)/CashNormal.m"; sourceTree = "<group>"; };
+		E279F4441C058A2A004A20AD /* CashRebate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CashRebate.h; path = "StrategyPattern(策略模式+工厂模式)/CashRebate.h"; sourceTree = "<group>"; };
+		E279F4451C058A2A004A20AD /* CashRebate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CashRebate.m; path = "StrategyPattern(策略模式+工厂模式)/CashRebate.m"; sourceTree = "<group>"; };
+		E279F4461C058A2A004A20AD /* CashReturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CashReturn.h; path = "StrategyPattern(策略模式+工厂模式)/CashReturn.h"; sourceTree = "<group>"; };
+		E279F4471C058A2A004A20AD /* CashReturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CashReturn.m; path = "StrategyPattern(策略模式+工厂模式)/CashReturn.m"; sourceTree = "<group>"; };
+		E279F4481C058A2A004A20AD /* CashSuper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CashSuper.h; path = "StrategyPattern(策略模式+工厂模式)/CashSuper.h"; sourceTree = "<group>"; };
+		E279F4491C058A2A004A20AD /* CashSuper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CashSuper.m; path = "StrategyPattern(策略模式+工厂模式)/CashSuper.m"; sourceTree = "<group>"; };
 		E2DB3A6E1BFC18410014C757 /* PPDesignMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPDesignMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DB3A711BFC18410014C757 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2DB3A721BFC18410014C757 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -73,18 +85,6 @@
 		E2DB3A8C1BFC18420014C757 /* PPDesignModeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPDesignModeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DB3A901BFC18420014C757 /* PPDesignModeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPDesignModeUITests.m; sourceTree = "<group>"; };
 		E2DB3A921BFC18420014C757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E2DB3AA01BFC18820014C757 /* PPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOperation.h; sourceTree = "<group>"; };
-		E2DB3AA11BFC18820014C757 /* PPOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOperation.m; sourceTree = "<group>"; };
-		E2DB3AA31BFC18930014C757 /* Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
-		E2DB3AA41BFC18930014C757 /* Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operation.m; sourceTree = "<group>"; };
-		E2DB3AA61BFC1E4A0014C757 /* OperationAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationAdd.h; sourceTree = "<group>"; };
-		E2DB3AA71BFC1E4A0014C757 /* OperationAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationAdd.m; sourceTree = "<group>"; };
-		E2DB3AA91BFC1E5C0014C757 /* OperationSub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationSub.h; sourceTree = "<group>"; };
-		E2DB3AAA1BFC1E5C0014C757 /* OperationSub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationSub.m; sourceTree = "<group>"; };
-		E2DB3AAC1BFC1E710014C757 /* OperationMul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationMul.h; sourceTree = "<group>"; };
-		E2DB3AAD1BFC1E710014C757 /* OperationMul.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationMul.m; sourceTree = "<group>"; };
-		E2DB3AAF1BFC1E940014C757 /* OperationDiv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationDiv.h; sourceTree = "<group>"; };
-		E2DB3AB01BFC1E940014C757 /* OperationDiv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationDiv.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,36 +124,28 @@
 		E279F4131C02F79E004A20AD /* StrategyPattern(策略模式+工厂模式) */ = {
 			isa = PBXGroup;
 			children = (
-				E279F4151C02FBD4004A20AD /* second method */,
-				E279F4141C02F8B8004A20AD /* first method */,
+				E279F4151C02FBD4004A20AD /* first method */,
 			);
 			name = "StrategyPattern(策略模式+工厂模式)";
 			sourceTree = "<group>";
 		};
-		E279F4141C02F8B8004A20AD /* first method */ = {
+		E279F4151C02FBD4004A20AD /* first method */ = {
 			isa = PBXGroup;
 			children = (
+				E279F43E1C058A2A004A20AD /* CashContext.h */,
+				E279F43F1C058A2A004A20AD /* CashContext.m */,
+				E279F4401C058A2A004A20AD /* CashFactory.h */,
+				E279F4411C058A2A004A20AD /* CashFactory.m */,
+				E279F4421C058A2A004A20AD /* CashNormal.h */,
+				E279F4431C058A2A004A20AD /* CashNormal.m */,
+				E279F4441C058A2A004A20AD /* CashRebate.h */,
+				E279F4451C058A2A004A20AD /* CashRebate.m */,
+				E279F4461C058A2A004A20AD /* CashReturn.h */,
+				E279F4471C058A2A004A20AD /* CashReturn.m */,
+				E279F4481C058A2A004A20AD /* CashSuper.h */,
+				E279F4491C058A2A004A20AD /* CashSuper.m */,
 			);
 			name = "first method";
-			sourceTree = "<group>";
-		};
-		E279F4151C02FBD4004A20AD /* second method */ = {
-			isa = PBXGroup;
-			children = (
-				E279F4161C02FBF4004A20AD /* CashSuper.h */,
-				E279F4171C02FBF4004A20AD /* CashSuper.m */,
-				E279F4191C02FC16004A20AD /* CashNormal.h */,
-				E279F41A1C02FC16004A20AD /* CashNormal.m */,
-				E279F41C1C02FC36004A20AD /* CashRebate.h */,
-				E279F41D1C02FC36004A20AD /* CashRebate.m */,
-				E279F41F1C02FC4C004A20AD /* CashReturn.h */,
-				E279F4201C02FC4C004A20AD /* CashReturn.m */,
-				E279F4221C030032004A20AD /* CashFactory.h */,
-				E279F4231C030032004A20AD /* CashFactory.m */,
-				E279F4251C030B97004A20AD /* CashContext.h */,
-				E279F4261C030B97004A20AD /* CashContext.m */,
-			);
-			name = "second method";
 			sourceTree = "<group>";
 		};
 		E2DB3A651BFC18410014C757 = {
@@ -220,8 +212,8 @@
 		E2DB3A9E1BFC18530014C757 /* first method */ = {
 			isa = PBXGroup;
 			children = (
-				E2DB3AA01BFC18820014C757 /* PPOperation.h */,
-				E2DB3AA11BFC18820014C757 /* PPOperation.m */,
+				E279F4351C0589F5004A20AD /* PPOperation.h */,
+				E279F4361C0589F5004A20AD /* PPOperation.m */,
 			);
 			name = "first method";
 			sourceTree = "<group>";
@@ -229,18 +221,18 @@
 		E2DB3A9F1BFC185F0014C757 /* second method */ = {
 			isa = PBXGroup;
 			children = (
-				E2DB3AA31BFC18930014C757 /* Operation.h */,
-				E2DB3AA41BFC18930014C757 /* Operation.m */,
-				E2DB3AA61BFC1E4A0014C757 /* OperationAdd.h */,
-				E2DB3AA71BFC1E4A0014C757 /* OperationAdd.m */,
-				E2DB3AA91BFC1E5C0014C757 /* OperationSub.h */,
-				E2DB3AAA1BFC1E5C0014C757 /* OperationSub.m */,
-				E2DB3AAC1BFC1E710014C757 /* OperationMul.h */,
-				E2DB3AAD1BFC1E710014C757 /* OperationMul.m */,
-				E2DB3AAF1BFC1E940014C757 /* OperationDiv.h */,
-				E2DB3AB01BFC1E940014C757 /* OperationDiv.m */,
-				E279F40F1C02ED89004A20AD /* OperationFactory.h */,
-				E279F4101C02ED89004A20AD /* OperationFactory.m */,
+				E279F4291C0589F5004A20AD /* Operation.h */,
+				E279F42A1C0589F5004A20AD /* Operation.m */,
+				E279F42B1C0589F5004A20AD /* OperationAdd.h */,
+				E279F42C1C0589F5004A20AD /* OperationAdd.m */,
+				E279F42D1C0589F5004A20AD /* OperationDiv.h */,
+				E279F42E1C0589F5004A20AD /* OperationDiv.m */,
+				E279F42F1C0589F5004A20AD /* OperationFactory.h */,
+				E279F4301C0589F5004A20AD /* OperationFactory.m */,
+				E279F4311C0589F5004A20AD /* OperationMul.h */,
+				E279F4321C0589F5004A20AD /* OperationMul.m */,
+				E279F4331C0589F5004A20AD /* OperationSub.h */,
+				E279F4341C0589F5004A20AD /* OperationSub.m */,
 			);
 			name = "second method";
 			sourceTree = "<group>";
@@ -374,21 +366,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E279F4271C030B97004A20AD /* CashContext.m in Sources */,
-				E2DB3AAE1BFC1E710014C757 /* OperationMul.m in Sources */,
-				E279F4241C030032004A20AD /* CashFactory.m in Sources */,
-				E279F41E1C02FC36004A20AD /* CashRebate.m in Sources */,
-				E2DB3AAB1BFC1E5C0014C757 /* OperationSub.m in Sources */,
+				E279F44A1C058A2A004A20AD /* CashContext.m in Sources */,
+				E279F43B1C0589F5004A20AD /* OperationMul.m in Sources */,
+				E279F4391C0589F5004A20AD /* OperationDiv.m in Sources */,
+				E279F44F1C058A2A004A20AD /* CashSuper.m in Sources */,
+				E279F44C1C058A2A004A20AD /* CashNormal.m in Sources */,
 				E2DB3A761BFC18410014C757 /* main.m in Sources */,
-				E279F41B1C02FC16004A20AD /* CashNormal.m in Sources */,
+				E279F44D1C058A2A004A20AD /* CashRebate.m in Sources */,
+				E279F43A1C0589F5004A20AD /* OperationFactory.m in Sources */,
+				E279F44B1C058A2A004A20AD /* CashFactory.m in Sources */,
+				E279F4381C0589F5004A20AD /* OperationAdd.m in Sources */,
+				E279F43D1C0589F5004A20AD /* PPOperation.m in Sources */,
+				E279F43C1C0589F5004A20AD /* OperationSub.m in Sources */,
 				E2DB3A731BFC18410014C757 /* AppDelegate.m in Sources */,
-				E2DB3AA21BFC18820014C757 /* PPOperation.m in Sources */,
-				E279F4211C02FC4C004A20AD /* CashReturn.m in Sources */,
-				E279F4111C02ED89004A20AD /* OperationFactory.m in Sources */,
-				E2DB3AB11BFC1E940014C757 /* OperationDiv.m in Sources */,
-				E2DB3AA51BFC18930014C757 /* Operation.m in Sources */,
-				E279F4181C02FBF4004A20AD /* CashSuper.m in Sources */,
-				E2DB3AA81BFC1E4A0014C757 /* OperationAdd.m in Sources */,
+				E279F44E1C058A2A004A20AD /* CashReturn.m in Sources */,
+				E279F4371C0589F5004A20AD /* Operation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
