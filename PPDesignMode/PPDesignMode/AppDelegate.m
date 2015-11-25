@@ -11,7 +11,7 @@
 #import "OperationFactory.h"
 #import "CashFactory.h"
 #import "CashContext.h"
-
+#import "Person.h"
 
 @interface AppDelegate ()
 
@@ -75,11 +75,39 @@
     */
     
     //third version 策略模式和工厂模式的组合
+    /*
     double result = 0.0f;
     CashContext* content = [[CashContext alloc]initCashContextType:3];
     result = [content getResult:300];
     NSLog(@"normal result = %f type = %@",result,content.typeString);
+    */
+    
+    /* first version
+    Person* person = [[Person alloc]init];
+    person.name = @"小菜";
+    NSLog(@"\n第一种打扮:");
+    [person wearBigTrouser];
+    [person wearSneakers];
+    [person wearSuit];
+    [person wearTie];
+    [person wearTShirts];
+    [person show];
 
+    
+    NSLog(@"\n第二种打扮:");
+    [person wearSuit];
+    [person wearTie];
+    [person wearTShirts];
+    [person show];
+    */
+    
+    /* second version
+     
+     
+     
+     
+     */
+    
     
     
     

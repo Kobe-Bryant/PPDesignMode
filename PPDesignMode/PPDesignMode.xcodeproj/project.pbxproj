@@ -20,6 +20,10 @@
 		E279F44D1C058A2A004A20AD /* CashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4451C058A2A004A20AD /* CashRebate.m */; };
 		E279F44E1C058A2A004A20AD /* CashReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4471C058A2A004A20AD /* CashReturn.m */; };
 		E279F44F1C058A2A004A20AD /* CashSuper.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4491C058A2A004A20AD /* CashSuper.m */; };
+		E279F4541C058F96004A20AD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4531C058F96004A20AD /* Person.m */; };
+		E279F4581C0592CD004A20AD /* Finery.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4571C0592CD004A20AD /* Finery.m */; };
+		E279F45B1C0593CF004A20AD /* TShirts.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F45A1C0593CF004A20AD /* TShirts.m */; };
+		E279F45E1C0593EE004A20AD /* BigTrouser.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F45D1C0593EE004A20AD /* BigTrouser.m */; };
 		E2DB3A731BFC18410014C757 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3A721BFC18410014C757 /* AppDelegate.m */; };
 		E2DB3A761BFC18410014C757 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3A751BFC18410014C757 /* main.m */; };
 		E2DB3A781BFC18410014C757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2DB3A771BFC18410014C757 /* Assets.xcassets */; };
@@ -72,6 +76,14 @@
 		E279F4471C058A2A004A20AD /* CashReturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CashReturn.m; path = "StrategyPattern(策略模式+工厂模式)/CashReturn.m"; sourceTree = "<group>"; };
 		E279F4481C058A2A004A20AD /* CashSuper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CashSuper.h; path = "StrategyPattern(策略模式+工厂模式)/CashSuper.h"; sourceTree = "<group>"; };
 		E279F4491C058A2A004A20AD /* CashSuper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CashSuper.m; path = "StrategyPattern(策略模式+工厂模式)/CashSuper.m"; sourceTree = "<group>"; };
+		E279F4521C058F96004A20AD /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E279F4531C058F96004A20AD /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		E279F4561C0592CD004A20AD /* Finery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Finery.h; sourceTree = "<group>"; };
+		E279F4571C0592CD004A20AD /* Finery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Finery.m; sourceTree = "<group>"; };
+		E279F4591C0593CF004A20AD /* TShirts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TShirts.h; sourceTree = "<group>"; };
+		E279F45A1C0593CF004A20AD /* TShirts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TShirts.m; sourceTree = "<group>"; };
+		E279F45C1C0593EE004A20AD /* BigTrouser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigTrouser.h; sourceTree = "<group>"; };
+		E279F45D1C0593EE004A20AD /* BigTrouser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigTrouser.m; sourceTree = "<group>"; };
 		E2DB3A6E1BFC18410014C757 /* PPDesignMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPDesignMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DB3A711BFC18410014C757 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2DB3A721BFC18410014C757 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -124,14 +136,6 @@
 		E279F4131C02F79E004A20AD /* StrategyPattern(策略模式+工厂模式) */ = {
 			isa = PBXGroup;
 			children = (
-				E279F4151C02FBD4004A20AD /* first method */,
-			);
-			name = "StrategyPattern(策略模式+工厂模式)";
-			sourceTree = "<group>";
-		};
-		E279F4151C02FBD4004A20AD /* first method */ = {
-			isa = PBXGroup;
-			children = (
 				E279F43E1C058A2A004A20AD /* CashContext.h */,
 				E279F43F1C058A2A004A20AD /* CashContext.m */,
 				E279F4401C058A2A004A20AD /* CashFactory.h */,
@@ -145,7 +149,38 @@
 				E279F4481C058A2A004A20AD /* CashSuper.h */,
 				E279F4491C058A2A004A20AD /* CashSuper.m */,
 			);
+			name = "StrategyPattern(策略模式+工厂模式)";
+			sourceTree = "<group>";
+		};
+		E279F4501C058EB3004A20AD /* DecoratePattern(装饰模式) */ = {
+			isa = PBXGroup;
+			children = (
+				E279F4551C0592B7004A20AD /* second method */,
+				E279F4511C058F59004A20AD /* first method */,
+			);
+			name = "DecoratePattern(装饰模式)";
+			sourceTree = "<group>";
+		};
+		E279F4511C058F59004A20AD /* first method */ = {
+			isa = PBXGroup;
+			children = (
+				E279F4521C058F96004A20AD /* Person.h */,
+				E279F4531C058F96004A20AD /* Person.m */,
+			);
 			name = "first method";
+			sourceTree = "<group>";
+		};
+		E279F4551C0592B7004A20AD /* second method */ = {
+			isa = PBXGroup;
+			children = (
+				E279F4591C0593CF004A20AD /* TShirts.h */,
+				E279F45A1C0593CF004A20AD /* TShirts.m */,
+				E279F4561C0592CD004A20AD /* Finery.h */,
+				E279F4571C0592CD004A20AD /* Finery.m */,
+				E279F45C1C0593EE004A20AD /* BigTrouser.h */,
+				E279F45D1C0593EE004A20AD /* BigTrouser.m */,
+			);
+			name = "second method";
 			sourceTree = "<group>";
 		};
 		E2DB3A651BFC18410014C757 = {
@@ -171,6 +206,7 @@
 		E2DB3A701BFC18410014C757 /* PPDesignMode */ = {
 			isa = PBXGroup;
 			children = (
+				E279F4501C058EB3004A20AD /* DecoratePattern(装饰模式) */,
 				E279F4131C02F79E004A20AD /* StrategyPattern(策略模式+工厂模式) */,
 				E279F4121C02F74B004A20AD /* FactoryPattern(简单工厂模式) */,
 				E2DB3A711BFC18410014C757 /* AppDelegate.h */,
@@ -374,10 +410,14 @@
 				E2DB3A761BFC18410014C757 /* main.m in Sources */,
 				E279F44D1C058A2A004A20AD /* CashRebate.m in Sources */,
 				E279F43A1C0589F5004A20AD /* OperationFactory.m in Sources */,
+				E279F4581C0592CD004A20AD /* Finery.m in Sources */,
 				E279F44B1C058A2A004A20AD /* CashFactory.m in Sources */,
 				E279F4381C0589F5004A20AD /* OperationAdd.m in Sources */,
+				E279F4541C058F96004A20AD /* Person.m in Sources */,
 				E279F43D1C0589F5004A20AD /* PPOperation.m in Sources */,
+				E279F45B1C0593CF004A20AD /* TShirts.m in Sources */,
 				E279F43C1C0589F5004A20AD /* OperationSub.m in Sources */,
+				E279F45E1C0593EE004A20AD /* BigTrouser.m in Sources */,
 				E2DB3A731BFC18410014C757 /* AppDelegate.m in Sources */,
 				E279F44E1C058A2A004A20AD /* CashReturn.m in Sources */,
 				E279F4371C0589F5004A20AD /* Operation.m in Sources */,
