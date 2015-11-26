@@ -1,16 +1,16 @@
 //
-//  Finery.h
+//  PPFinery.h
 //  PPDesignMode
 //
 //  Created by patpat on 15/11/25.
 //  Copyright © 2015年 test. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "People.h"
 
+@interface PPFinery : People
 
-@interface Finery : NSObject
+- (void)setDecorate:(People*)p;
 
-- (void)show;
 
 @end

@@ -10,4 +10,9 @@
 
 @implementation BigTrouser
 
+- (void)show
+{
+    NSLog(@"show BigTrouser");
+}
+
 @end

@@ -1,16 +1,13 @@
 //
-//  Finery.h
+//  Suit.h
 //  PPDesignMode
 //
 //  Created by patpat on 15/11/25.
 //  Copyright © 2015年 test. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "Finery.h"
 
-
-@interface Finery : NSObject
-
-- (void)show;
+@interface Suit : Finery
 
 @end

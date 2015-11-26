@@ -1,18 +1,18 @@
 //
-//  TShirts.m
+//  PPComponent.m
 //  PPDesignMode
 //
 //  Created by patpat on 15/11/25.
 //  Copyright © 2015年 test. All rights reserved.
 //
 
-#import "TShirts.h"
+#import "PPComponent.h"
 
-@implementation TShirts
+@implementation PPComponent
 
-- (void)show
+- (void)Operation
 {
-    NSLog(@"show TShirts");
+    NSLog(@"组成，构成");
 }
 
 @end

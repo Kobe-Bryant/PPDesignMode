@@ -1,18 +1,19 @@
 //
-//  TShirts.m
+//  PPTShirts.m
 //  PPDesignMode
 //
 //  Created by patpat on 15/11/25.
 //  Copyright © 2015年 test. All rights reserved.
 //
 
-#import "TShirts.h"
+#import "PPTShirts.h"
 
-@implementation TShirts
+@implementation PPTShirts
 
 - (void)show
 {
-    NSLog(@"show TShirts");
+    NSLog(@"show  TShirts");
+    [super show];
 }
 
 @end

@@ -1,18 +1,19 @@
 //
-//  TShirts.m
+//  PPBigTrouser.m
 //  PPDesignMode
 //
 //  Created by patpat on 15/11/25.
 //  Copyright © 2015年 test. All rights reserved.
 //
 
-#import "TShirts.h"
+#import "PPBigTrouser.h"
 
-@implementation TShirts
+@implementation PPBigTrouser
 
 - (void)show
 {
-    NSLog(@"show TShirts");
+    NSLog(@"show  BigTrouser");
+    [super show];
 }
 
 @end

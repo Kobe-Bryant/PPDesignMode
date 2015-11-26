@@ -7,11 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "PPOperation.h"
-#import "OperationFactory.h"
-#import "CashFactory.h"
-#import "CashContext.h"
-#import "Person.h"
+#import "Configure.h"
 
 @interface AppDelegate ()
 
@@ -93,7 +89,6 @@
     [person wearTShirts];
     [person show];
 
-    
     NSLog(@"\n第二种打扮:");
     [person wearSuit];
     [person wearTie];
@@ -101,42 +96,81 @@
     [person show];
     */
     
+    
     /* second version
      
+     Person* person = [[Person alloc]init];
+     person.name = @"小菜";
+     NSLog(@"\n第一种打扮:");
+     [person show];
      
+     Finery* one = (Finery*)[[BigTrouser alloc] init];
+     [one show];
      
+     Finery* two = (Finery*)[[TShirts alloc]init];
+     [two show];
      
+     Finery* three = (Finery*)[[Sneakers alloc]init];
+     [three show];
+     
+     Finery* four = (Finery*)[[Suit alloc]init];
+     [four show];
+     
+     NSLog(@"\n第二种打扮:");
+     
+     Finery* five = (Finery*)[[Sneakers alloc]init];
+     [five show];
+     
+     Finery* six = (Finery*)[[Suit alloc]init];
+     [six show];
+  
      */
     
+    //具体的对象
+     /* third version
+    
+      PPConcreteComponent* concrete = [[PPConcreteComponent alloc]init];
+      PPConcreteDecoratorComponentA* concreteA = [[PPConcreteDecoratorComponentA alloc]init];
+      PPConcreteDecoratorComponentB* concreteB = [[PPConcreteDecoratorComponentB alloc]init];
+      [concreteA setComponent:concrete];
+      [concreteB setComponent:concreteA];
+      [concreteB Operation];
+    */
+    
+    People* person = [[People alloc]init];
+    person.name = @"mafeng";
+    NSLog(@"\n第一种打扮:");
+ 
+    
+    PPTShirts* tshirts = [[PPTShirts alloc]init];
+    PPBigTrouser* trouses = [[PPBigTrouser alloc]init];
+    PPSuit* suit = [[PPSuit alloc]init];
+    
+    [tshirts setDecorate:person];
     
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*   four version
+    
+    
+    
+     
+     
+    */
     
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 
 }
 

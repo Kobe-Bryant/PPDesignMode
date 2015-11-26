@@ -1,5 +1,5 @@
 //
-//  Finery.h
+//  People.h
 //  PPDesignMode
 //
 //  Created by patpat on 15/11/25.
@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-
-@interface Finery : NSObject
+@interface People : NSObject
+@property(nonatomic,strong) NSString* name;
 
 - (void)show;
 
