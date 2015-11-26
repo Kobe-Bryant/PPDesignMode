@@ -19,6 +19,9 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
    
     
+    NSLog(@"test");
+    
+    
     /* first version
      double number1 = 0;
      double number2 = 0;
