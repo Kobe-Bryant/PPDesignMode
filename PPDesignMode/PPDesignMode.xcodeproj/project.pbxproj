@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E23E51ED1C05D4EF00CE78D0 /* PPComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E51EC1C05D4EF00CE78D0 /* PPComponent.m */; };
-		E23E51F01C05D55800CE78D0 /* PPConcreteComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E51EF1C05D55800CE78D0 /* PPConcreteComponent.m */; };
-		E23E51F31C05D5B000CE78D0 /* PPDecoratorComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E51F21C05D5B000CE78D0 /* PPDecoratorComponent.m */; };
-		E23E51F61C05D94E00CE78D0 /* PPConcreteDecoratorComponentA.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E51F51C05D94E00CE78D0 /* PPConcreteDecoratorComponentA.m */; };
-		E23E51F91C05D96C00CE78D0 /* PPConcreteDecoratorComponentB.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E51F81C05D96C00CE78D0 /* PPConcreteDecoratorComponentB.m */; };
-		E23E51FD1C05E16600CE78D0 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E51FC1C05E16600CE78D0 /* People.m */; };
-		E23E52001C05E3CB00CE78D0 /* PPFinery.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E51FF1C05E3CB00CE78D0 /* PPFinery.m */; };
-		E23E52031C05E4CC00CE78D0 /* PPTShirts.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E52021C05E4CC00CE78D0 /* PPTShirts.m */; };
-		E23E52061C05E56200CE78D0 /* PPBigTrouser.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E52051C05E56200CE78D0 /* PPBigTrouser.m */; };
-		E23E52091C05E59200CE78D0 /* PPSuit.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E52081C05E59200CE78D0 /* PPSuit.m */; };
+		E23E52331C07206600CE78D0 /* Sneakers.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E52301C07206600CE78D0 /* Sneakers.m */; };
+		E23E52341C07206600CE78D0 /* Suit.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E52321C07206600CE78D0 /* Suit.m */; };
+		E23E523F1C07208F00CE78D0 /* PPComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E52361C07208F00CE78D0 /* PPComponent.m */; };
+		E23E52401C07208F00CE78D0 /* PPConcreteComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E52381C07208F00CE78D0 /* PPConcreteComponent.m */; };
+		E23E52411C07208F00CE78D0 /* PPConcreteDecoratorComponentA.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E523A1C07208F00CE78D0 /* PPConcreteDecoratorComponentA.m */; };
+		E23E52421C07208F00CE78D0 /* PPConcreteDecoratorComponentB.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E523C1C07208F00CE78D0 /* PPConcreteDecoratorComponentB.m */; };
+		E23E52431C07208F00CE78D0 /* PPDecoratorComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E523E1C07208F00CE78D0 /* PPDecoratorComponent.m */; };
+		E23E524E1C07209E00CE78D0 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E52451C07209E00CE78D0 /* People.m */; };
+		E23E524F1C07209E00CE78D0 /* PPBigTrouser.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E52471C07209E00CE78D0 /* PPBigTrouser.m */; };
+		E23E52501C07209E00CE78D0 /* PPFinery.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E52491C07209E00CE78D0 /* PPFinery.m */; };
+		E23E52511C07209E00CE78D0 /* PPSuit.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E524B1C07209E00CE78D0 /* PPSuit.m */; };
+		E23E52521C07209E00CE78D0 /* PPTShirts.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E524D1C07209E00CE78D0 /* PPTShirts.m */; };
 		E279F4371C0589F5004A20AD /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F42A1C0589F5004A20AD /* Operation.m */; };
 		E279F4381C0589F5004A20AD /* OperationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F42C1C0589F5004A20AD /* OperationAdd.m */; };
 		E279F4391C0589F5004A20AD /* OperationDiv.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F42E1C0589F5004A20AD /* OperationDiv.m */; };
@@ -34,8 +36,6 @@
 		E279F4681C05A073004A20AD /* Finery.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4621C05A073004A20AD /* Finery.m */; };
 		E279F4691C05A073004A20AD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4641C05A073004A20AD /* Person.m */; };
 		E279F46A1C05A073004A20AD /* TShirts.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4661C05A073004A20AD /* TShirts.m */; };
-		E279F46D1C05A1EB004A20AD /* Sneakers.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F46C1C05A1EB004A20AD /* Sneakers.m */; };
-		E279F4701C05A20B004A20AD /* Suit.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F46F1C05A20B004A20AD /* Suit.m */; };
 		E2DB3A731BFC18410014C757 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3A721BFC18410014C757 /* AppDelegate.m */; };
 		E2DB3A761BFC18410014C757 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3A751BFC18410014C757 /* main.m */; };
 		E2DB3A781BFC18410014C757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2DB3A771BFC18410014C757 /* Assets.xcassets */; };
@@ -62,27 +62,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E23E51EB1C05D4EF00CE78D0 /* PPComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPComponent.h; sourceTree = "<group>"; };
-		E23E51EC1C05D4EF00CE78D0 /* PPComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPComponent.m; sourceTree = "<group>"; };
-		E23E51EE1C05D55800CE78D0 /* PPConcreteComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPConcreteComponent.h; sourceTree = "<group>"; };
-		E23E51EF1C05D55800CE78D0 /* PPConcreteComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPConcreteComponent.m; sourceTree = "<group>"; };
-		E23E51F11C05D5B000CE78D0 /* PPDecoratorComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDecoratorComponent.h; sourceTree = "<group>"; };
-		E23E51F21C05D5B000CE78D0 /* PPDecoratorComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDecoratorComponent.m; sourceTree = "<group>"; };
-		E23E51F41C05D94E00CE78D0 /* PPConcreteDecoratorComponentA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPConcreteDecoratorComponentA.h; sourceTree = "<group>"; };
-		E23E51F51C05D94E00CE78D0 /* PPConcreteDecoratorComponentA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPConcreteDecoratorComponentA.m; sourceTree = "<group>"; };
-		E23E51F71C05D96C00CE78D0 /* PPConcreteDecoratorComponentB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPConcreteDecoratorComponentB.h; sourceTree = "<group>"; };
-		E23E51F81C05D96C00CE78D0 /* PPConcreteDecoratorComponentB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPConcreteDecoratorComponentB.m; sourceTree = "<group>"; };
-		E23E51FB1C05E16600CE78D0 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
-		E23E51FC1C05E16600CE78D0 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
-		E23E51FE1C05E3CB00CE78D0 /* PPFinery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPFinery.h; sourceTree = "<group>"; };
-		E23E51FF1C05E3CB00CE78D0 /* PPFinery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPFinery.m; sourceTree = "<group>"; };
-		E23E52011C05E4CC00CE78D0 /* PPTShirts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPTShirts.h; sourceTree = "<group>"; };
-		E23E52021C05E4CC00CE78D0 /* PPTShirts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPTShirts.m; sourceTree = "<group>"; };
-		E23E52041C05E56200CE78D0 /* PPBigTrouser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPBigTrouser.h; sourceTree = "<group>"; };
-		E23E52051C05E56200CE78D0 /* PPBigTrouser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPBigTrouser.m; sourceTree = "<group>"; };
-		E23E52071C05E59200CE78D0 /* PPSuit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSuit.h; sourceTree = "<group>"; };
-		E23E52081C05E59200CE78D0 /* PPSuit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSuit.m; sourceTree = "<group>"; };
 		E23E520A1C05E65100CE78D0 /* Configure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Configure.h; sourceTree = "<group>"; };
+		E23E522F1C07206600CE78D0 /* Sneakers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sneakers.h; path = "DecoratePattern(装饰模式)/Sneakers.h"; sourceTree = "<group>"; };
+		E23E52301C07206600CE78D0 /* Sneakers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sneakers.m; path = "DecoratePattern(装饰模式)/Sneakers.m"; sourceTree = "<group>"; };
+		E23E52311C07206600CE78D0 /* Suit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Suit.h; path = "DecoratePattern(装饰模式)/Suit.h"; sourceTree = "<group>"; };
+		E23E52321C07206600CE78D0 /* Suit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Suit.m; path = "DecoratePattern(装饰模式)/Suit.m"; sourceTree = "<group>"; };
+		E23E52351C07208F00CE78D0 /* PPComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPComponent.h; path = "DecoratePattern(装饰模式)/PPComponent.h"; sourceTree = "<group>"; };
+		E23E52361C07208F00CE78D0 /* PPComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPComponent.m; path = "DecoratePattern(装饰模式)/PPComponent.m"; sourceTree = "<group>"; };
+		E23E52371C07208F00CE78D0 /* PPConcreteComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPConcreteComponent.h; path = "DecoratePattern(装饰模式)/PPConcreteComponent.h"; sourceTree = "<group>"; };
+		E23E52381C07208F00CE78D0 /* PPConcreteComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPConcreteComponent.m; path = "DecoratePattern(装饰模式)/PPConcreteComponent.m"; sourceTree = "<group>"; };
+		E23E52391C07208F00CE78D0 /* PPConcreteDecoratorComponentA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPConcreteDecoratorComponentA.h; path = "DecoratePattern(装饰模式)/PPConcreteDecoratorComponentA.h"; sourceTree = "<group>"; };
+		E23E523A1C07208F00CE78D0 /* PPConcreteDecoratorComponentA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPConcreteDecoratorComponentA.m; path = "DecoratePattern(装饰模式)/PPConcreteDecoratorComponentA.m"; sourceTree = "<group>"; };
+		E23E523B1C07208F00CE78D0 /* PPConcreteDecoratorComponentB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPConcreteDecoratorComponentB.h; path = "DecoratePattern(装饰模式)/PPConcreteDecoratorComponentB.h"; sourceTree = "<group>"; };
+		E23E523C1C07208F00CE78D0 /* PPConcreteDecoratorComponentB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPConcreteDecoratorComponentB.m; path = "DecoratePattern(装饰模式)/PPConcreteDecoratorComponentB.m"; sourceTree = "<group>"; };
+		E23E523D1C07208F00CE78D0 /* PPDecoratorComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPDecoratorComponent.h; path = "DecoratePattern(装饰模式)/PPDecoratorComponent.h"; sourceTree = "<group>"; };
+		E23E523E1C07208F00CE78D0 /* PPDecoratorComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPDecoratorComponent.m; path = "DecoratePattern(装饰模式)/PPDecoratorComponent.m"; sourceTree = "<group>"; };
+		E23E52441C07209E00CE78D0 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = People.h; path = "DecoratePattern(装饰模式)/People.h"; sourceTree = "<group>"; };
+		E23E52451C07209E00CE78D0 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = People.m; path = "DecoratePattern(装饰模式)/People.m"; sourceTree = "<group>"; };
+		E23E52461C07209E00CE78D0 /* PPBigTrouser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPBigTrouser.h; path = "DecoratePattern(装饰模式)/PPBigTrouser.h"; sourceTree = "<group>"; };
+		E23E52471C07209E00CE78D0 /* PPBigTrouser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPBigTrouser.m; path = "DecoratePattern(装饰模式)/PPBigTrouser.m"; sourceTree = "<group>"; };
+		E23E52481C07209E00CE78D0 /* PPFinery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPFinery.h; path = "DecoratePattern(装饰模式)/PPFinery.h"; sourceTree = "<group>"; };
+		E23E52491C07209E00CE78D0 /* PPFinery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPFinery.m; path = "DecoratePattern(装饰模式)/PPFinery.m"; sourceTree = "<group>"; };
+		E23E524A1C07209E00CE78D0 /* PPSuit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPSuit.h; path = "DecoratePattern(装饰模式)/PPSuit.h"; sourceTree = "<group>"; };
+		E23E524B1C07209E00CE78D0 /* PPSuit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPSuit.m; path = "DecoratePattern(装饰模式)/PPSuit.m"; sourceTree = "<group>"; };
+		E23E524C1C07209E00CE78D0 /* PPTShirts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPTShirts.h; path = "DecoratePattern(装饰模式)/PPTShirts.h"; sourceTree = "<group>"; };
+		E23E524D1C07209E00CE78D0 /* PPTShirts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPTShirts.m; path = "DecoratePattern(装饰模式)/PPTShirts.m"; sourceTree = "<group>"; };
 		E279F4291C0589F5004A20AD /* Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Operation.h; path = "FactoryPattern(简单工厂模式)/Operation.h"; sourceTree = "<group>"; };
 		E279F42A1C0589F5004A20AD /* Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Operation.m; path = "FactoryPattern(简单工厂模式)/Operation.m"; sourceTree = "<group>"; };
 		E279F42B1C0589F5004A20AD /* OperationAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OperationAdd.h; path = "FactoryPattern(简单工厂模式)/OperationAdd.h"; sourceTree = "<group>"; };
@@ -117,10 +121,6 @@
 		E279F4641C05A073004A20AD /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = "DecoratePattern(装饰模式)/Person.m"; sourceTree = "<group>"; };
 		E279F4651C05A073004A20AD /* TShirts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TShirts.h; path = "DecoratePattern(装饰模式)/TShirts.h"; sourceTree = "<group>"; };
 		E279F4661C05A073004A20AD /* TShirts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TShirts.m; path = "DecoratePattern(装饰模式)/TShirts.m"; sourceTree = "<group>"; };
-		E279F46B1C05A1EB004A20AD /* Sneakers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sneakers.h; sourceTree = "<group>"; };
-		E279F46C1C05A1EB004A20AD /* Sneakers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sneakers.m; sourceTree = "<group>"; };
-		E279F46E1C05A20B004A20AD /* Suit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Suit.h; sourceTree = "<group>"; };
-		E279F46F1C05A20B004A20AD /* Suit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Suit.m; sourceTree = "<group>"; };
 		E2DB3A6E1BFC18410014C757 /* PPDesignMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPDesignMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DB3A711BFC18410014C757 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2DB3A721BFC18410014C757 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -164,16 +164,16 @@
 		E23E51E41C05D3CD00CE78D0 /* third method */ = {
 			isa = PBXGroup;
 			children = (
-				E23E51EB1C05D4EF00CE78D0 /* PPComponent.h */,
-				E23E51EC1C05D4EF00CE78D0 /* PPComponent.m */,
-				E23E51EE1C05D55800CE78D0 /* PPConcreteComponent.h */,
-				E23E51EF1C05D55800CE78D0 /* PPConcreteComponent.m */,
-				E23E51F11C05D5B000CE78D0 /* PPDecoratorComponent.h */,
-				E23E51F21C05D5B000CE78D0 /* PPDecoratorComponent.m */,
-				E23E51F41C05D94E00CE78D0 /* PPConcreteDecoratorComponentA.h */,
-				E23E51F51C05D94E00CE78D0 /* PPConcreteDecoratorComponentA.m */,
-				E23E51F71C05D96C00CE78D0 /* PPConcreteDecoratorComponentB.h */,
-				E23E51F81C05D96C00CE78D0 /* PPConcreteDecoratorComponentB.m */,
+				E23E52351C07208F00CE78D0 /* PPComponent.h */,
+				E23E52361C07208F00CE78D0 /* PPComponent.m */,
+				E23E52371C07208F00CE78D0 /* PPConcreteComponent.h */,
+				E23E52381C07208F00CE78D0 /* PPConcreteComponent.m */,
+				E23E52391C07208F00CE78D0 /* PPConcreteDecoratorComponentA.h */,
+				E23E523A1C07208F00CE78D0 /* PPConcreteDecoratorComponentA.m */,
+				E23E523B1C07208F00CE78D0 /* PPConcreteDecoratorComponentB.h */,
+				E23E523C1C07208F00CE78D0 /* PPConcreteDecoratorComponentB.m */,
+				E23E523D1C07208F00CE78D0 /* PPDecoratorComponent.h */,
+				E23E523E1C07208F00CE78D0 /* PPDecoratorComponent.m */,
 			);
 			name = "third method";
 			sourceTree = "<group>";
@@ -181,16 +181,16 @@
 		E23E51FA1C05E0D600CE78D0 /* four method */ = {
 			isa = PBXGroup;
 			children = (
-				E23E51FB1C05E16600CE78D0 /* People.h */,
-				E23E51FC1C05E16600CE78D0 /* People.m */,
-				E23E51FE1C05E3CB00CE78D0 /* PPFinery.h */,
-				E23E51FF1C05E3CB00CE78D0 /* PPFinery.m */,
-				E23E52011C05E4CC00CE78D0 /* PPTShirts.h */,
-				E23E52021C05E4CC00CE78D0 /* PPTShirts.m */,
-				E23E52041C05E56200CE78D0 /* PPBigTrouser.h */,
-				E23E52051C05E56200CE78D0 /* PPBigTrouser.m */,
-				E23E52071C05E59200CE78D0 /* PPSuit.h */,
-				E23E52081C05E59200CE78D0 /* PPSuit.m */,
+				E23E52441C07209E00CE78D0 /* People.h */,
+				E23E52451C07209E00CE78D0 /* People.m */,
+				E23E52461C07209E00CE78D0 /* PPBigTrouser.h */,
+				E23E52471C07209E00CE78D0 /* PPBigTrouser.m */,
+				E23E52481C07209E00CE78D0 /* PPFinery.h */,
+				E23E52491C07209E00CE78D0 /* PPFinery.m */,
+				E23E524A1C07209E00CE78D0 /* PPSuit.h */,
+				E23E524B1C07209E00CE78D0 /* PPSuit.m */,
+				E23E524C1C07209E00CE78D0 /* PPTShirts.h */,
+				E23E524D1C07209E00CE78D0 /* PPTShirts.m */,
 			);
 			name = "four method";
 			sourceTree = "<group>";
@@ -252,10 +252,10 @@
 				E279F4601C05A073004A20AD /* BigTrouser.m */,
 				E279F4651C05A073004A20AD /* TShirts.h */,
 				E279F4661C05A073004A20AD /* TShirts.m */,
-				E279F46B1C05A1EB004A20AD /* Sneakers.h */,
-				E279F46C1C05A1EB004A20AD /* Sneakers.m */,
-				E279F46E1C05A20B004A20AD /* Suit.h */,
-				E279F46F1C05A20B004A20AD /* Suit.m */,
+				E23E522F1C07206600CE78D0 /* Sneakers.h */,
+				E23E52301C07206600CE78D0 /* Sneakers.m */,
+				E23E52311C07206600CE78D0 /* Suit.h */,
+				E23E52321C07206600CE78D0 /* Suit.m */,
 			);
 			name = "second method";
 			sourceTree = "<group>";
@@ -480,37 +480,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E23E52411C07208F00CE78D0 /* PPConcreteDecoratorComponentA.m in Sources */,
+				E23E52341C07206600CE78D0 /* Suit.m in Sources */,
 				E279F44A1C058A2A004A20AD /* CashContext.m in Sources */,
-				E279F46D1C05A1EB004A20AD /* Sneakers.m in Sources */,
+				E23E52331C07206600CE78D0 /* Sneakers.m in Sources */,
 				E279F46A1C05A073004A20AD /* TShirts.m in Sources */,
-				E23E51FD1C05E16600CE78D0 /* People.m in Sources */,
 				E279F43B1C0589F5004A20AD /* OperationMul.m in Sources */,
 				E279F4691C05A073004A20AD /* Person.m in Sources */,
+				E23E524E1C07209E00CE78D0 /* People.m in Sources */,
+				E23E52511C07209E00CE78D0 /* PPSuit.m in Sources */,
 				E279F4391C0589F5004A20AD /* OperationDiv.m in Sources */,
 				E279F44F1C058A2A004A20AD /* CashSuper.m in Sources */,
-				E23E52031C05E4CC00CE78D0 /* PPTShirts.m in Sources */,
+				E23E52431C07208F00CE78D0 /* PPDecoratorComponent.m in Sources */,
 				E279F44C1C058A2A004A20AD /* CashNormal.m in Sources */,
 				E2DB3A761BFC18410014C757 /* main.m in Sources */,
 				E279F44D1C058A2A004A20AD /* CashRebate.m in Sources */,
 				E279F43A1C0589F5004A20AD /* OperationFactory.m in Sources */,
+				E23E524F1C07209E00CE78D0 /* PPBigTrouser.m in Sources */,
 				E279F4671C05A073004A20AD /* BigTrouser.m in Sources */,
-				E279F4701C05A20B004A20AD /* Suit.m in Sources */,
-				E23E51ED1C05D4EF00CE78D0 /* PPComponent.m in Sources */,
 				E279F44B1C058A2A004A20AD /* CashFactory.m in Sources */,
+				E23E52501C07209E00CE78D0 /* PPFinery.m in Sources */,
+				E23E52421C07208F00CE78D0 /* PPConcreteDecoratorComponentB.m in Sources */,
 				E279F4381C0589F5004A20AD /* OperationAdd.m in Sources */,
 				E279F43D1C0589F5004A20AD /* PPOperation.m in Sources */,
-				E23E52001C05E3CB00CE78D0 /* PPFinery.m in Sources */,
-				E23E51F01C05D55800CE78D0 /* PPConcreteComponent.m in Sources */,
 				E279F43C1C0589F5004A20AD /* OperationSub.m in Sources */,
 				E2DB3A731BFC18410014C757 /* AppDelegate.m in Sources */,
-				E23E52061C05E56200CE78D0 /* PPBigTrouser.m in Sources */,
 				E279F44E1C058A2A004A20AD /* CashReturn.m in Sources */,
 				E279F4681C05A073004A20AD /* Finery.m in Sources */,
-				E23E51F91C05D96C00CE78D0 /* PPConcreteDecoratorComponentB.m in Sources */,
-				E23E52091C05E59200CE78D0 /* PPSuit.m in Sources */,
+				E23E52521C07209E00CE78D0 /* PPTShirts.m in Sources */,
+				E23E523F1C07208F00CE78D0 /* PPComponent.m in Sources */,
+				E23E52401C07208F00CE78D0 /* PPConcreteComponent.m in Sources */,
 				E279F4371C0589F5004A20AD /* Operation.m in Sources */,
-				E23E51F31C05D5B000CE78D0 /* PPDecoratorComponent.m in Sources */,
-				E23E51F61C05D94E00CE78D0 /* PPConcreteDecoratorComponentA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
