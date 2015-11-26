@@ -195,6 +195,13 @@
 			name = "four method";
 			sourceTree = "<group>";
 		};
+		E23E52531C07268F00CE78D0 /* DelegatePattern(代理模式) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "DelegatePattern(代理模式)";
+			sourceTree = "<group>";
+		};
 		E279F4121C02F74B004A20AD /* FactoryPattern(简单工厂模式) */ = {
 			isa = PBXGroup;
 			children = (
@@ -283,6 +290,7 @@
 		E2DB3A701BFC18410014C757 /* PPDesignMode */ = {
 			isa = PBXGroup;
 			children = (
+				E23E52531C07268F00CE78D0 /* DelegatePattern(代理模式) */,
 				E279F4501C058EB3004A20AD /* DecoratePattern(装饰模式) */,
 				E279F4131C02F79E004A20AD /* StrategyPattern(策略模式+工厂模式) */,
 				E279F4121C02F74B004A20AD /* FactoryPattern(简单工厂模式) */,

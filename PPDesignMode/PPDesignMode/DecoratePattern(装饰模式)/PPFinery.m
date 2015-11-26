@@ -26,7 +26,6 @@
 - (void)show
 {
     if (_person != nil) {
-        
         [_person show];
     }
 }

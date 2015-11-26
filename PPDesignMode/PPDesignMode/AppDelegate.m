@@ -137,41 +137,35 @@
       [concreteB Operation];
     */
     
-    People* person = [[People alloc]init];
-    person.name = @"mafeng";
-    NSLog(@"\n第一种打扮:");
- 
-    
-    PPTShirts* tshirts = [[PPTShirts alloc]init];
-    PPBigTrouser* trouses = [[PPBigTrouser alloc]init];
-    PPSuit* suit = [[PPSuit alloc]init];
-    
-    [tshirts setDecorate:person];
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    /*   four version
-    
-    
-    
-     
-     
+      /* four version
+       People* person = [[People alloc]init];
+       person.name = @"mafeng";
+       NSLog(@"\n第一种打扮:");
+       
+       PPTShirts* tshirts = [[PPTShirts alloc]init];
+       PPBigTrouser* trouses = [[PPBigTrouser alloc]init];
+       PPSuit* suit = [[PPSuit alloc]init];
+       [tshirts setDecorate:person];
+       [trouses setDecorate:tshirts];
+       [suit setDecorate:trouses];
+       [suit show];
+       
+       NSLog(@"\n第二种打扮:");
+       PPSuit* suit2 = [[PPSuit alloc]init];
+       PPBigTrouser* trouses2 = [[PPBigTrouser alloc]init];
+       [suit2 setDecorate:person];
+       [trouses2 setDecorate:suit2];
+       [trouses2 show];
     */
     
+    
+    
+    
 
+    
+    
 
+    
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
