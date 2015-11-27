@@ -19,9 +19,6 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
    
     
-    NSLog(@"test");
-    
-    
     /* first version
      double number1 = 0;
      double number2 = 0;
@@ -162,12 +159,63 @@
     */
     
     
+    //工厂方法模式 //多态
+     /*
+    IFactory* factory = [[AddFactory alloc]init];
+    Operation* operation = [factory createOperation];
+    operation.numberA = 1;
+    operation.numberB = 2;
+    double result = operation.getResult;
+    NSLog(@"result = %f",result);
+    */
     
-    
+    //原型模式
+    /*
+    Resume* resume = [[Resume alloc]init];
+    [resume setPersonInfo:@"大鸟" age:29];
+    [resume setWorkExperience:@"1990-2015" company:@"patpat"];
+    [resume display];
+    */
 
+    //模板模式
+    /*
+    AbstractClass* superClass;
+    superClass = [[ConcreteClassA alloc]init];
+    [superClass TemplateMethod];
+    superClass = [[ConcreteClassB alloc]init];
+    [superClass TemplateMethod];
+    */
+    
+    //外观模式
+     /*
+     Facade* f = [[Facade alloc]init];
+     [f facade];
+     [f methodA];
+     [f methodB];
+     */
+  
+    //建造者模式
+    /*
+    PersonBuilder* builder;
+    PersonDirector* director = [[PersonDirector alloc]init];
+    builder = [[PersonThinBuilder alloc]init];
+    [director setBuilder:builder];
+    [director createPerson];
+    NSLog(@"+++++++++++++++++++++++++++++++++");
+    builder = [[PersonFatBuilder alloc]init];
+    [director setBuilder:builder];
+    [director createPerson];
+    */
     
     
-
+    
+    
+    
+    
+    
+    
+    
+    
     
 }
 

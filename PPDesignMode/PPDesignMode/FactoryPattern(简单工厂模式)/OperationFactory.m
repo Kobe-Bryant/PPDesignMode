@@ -32,6 +32,7 @@
     return type;
 }
 
+//多态
 + (Operation*)createOperation:(NSString*)operateString
 {
     Operation* operation = nil;

@@ -27,7 +27,16 @@
 #import "PPTShirts.h"
 #import "PPFinery.h"
 #import "People.h"
-
-
+#import "IFactory.h"
+#import "AddFactory.h"
+#import "Resume.h"
+#import "AbstractClass.h"
+#import "ConcreteClassA.h"
+#import "ConcreteClassB.h"
+#import "Facade.h"
+#import "PersonDirector.h"
+#import "PersonBuilder.h"
+#import "PersonFatBuilder.h"
+#import "PersonThinBuilder.h"
 
 #endif /* Configure_h */
