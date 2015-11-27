@@ -19,7 +19,7 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
    
     
-    NSLog(@"test");
+    NSLog(@"test by mafeng");
     /* first version
      double number1 = 0;
      double number2 = 0;
