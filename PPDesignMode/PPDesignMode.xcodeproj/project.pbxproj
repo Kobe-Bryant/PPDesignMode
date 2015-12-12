@@ -79,7 +79,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E23E520A1C05E65100CE78D0 /* Configure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Configure.h; sourceTree = "<group>"; };
 		E23E522F1C07206600CE78D0 /* Sneakers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sneakers.h; path = "DecoratePattern(装饰模式)/Sneakers.h"; sourceTree = "<group>"; };
 		E23E52301C07206600CE78D0 /* Sneakers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sneakers.m; path = "DecoratePattern(装饰模式)/Sneakers.m"; sourceTree = "<group>"; };
 		E23E52311C07206600CE78D0 /* Suit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Suit.h; path = "DecoratePattern(装饰模式)/Suit.h"; sourceTree = "<group>"; };
@@ -172,6 +171,7 @@
 		E279F4661C05A073004A20AD /* TShirts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TShirts.m; path = "DecoratePattern(装饰模式)/TShirts.m"; sourceTree = "<group>"; };
 		E2AAB9E01C1C1F8300B82F5E /* PPStateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPStateObject.h; path = "StatePattern(状态模式)/PPStateObject.h"; sourceTree = "<group>"; };
 		E2AAB9E11C1C1F8300B82F5E /* PPStateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPStateObject.m; path = "StatePattern(状态模式)/PPStateObject.m"; sourceTree = "<group>"; };
+		E2AAB9E31C1C20A500B82F5E /* Configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Configure.h; path = configure/Configure.h; sourceTree = "<group>"; };
 		E2DB3A6E1BFC18410014C757 /* PPDesignMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPDesignMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DB3A711BFC18410014C757 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2DB3A721BFC18410014C757 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -441,7 +441,7 @@
 				E2DB3A791BFC18410014C757 /* MainMenu.xib */,
 				E2DB3A7C1BFC18410014C757 /* Info.plist */,
 				E2DB3A741BFC18410014C757 /* Supporting Files */,
-				E23E520A1C05E65100CE78D0 /* Configure.h */,
+				E2AAB9E31C1C20A500B82F5E /* Configure.h */,
 			);
 			path = PPDesignMode;
 			sourceTree = "<group>";

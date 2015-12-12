@@ -38,5 +38,6 @@
 #import "PersonBuilder.h"
 #import "PersonFatBuilder.h"
 #import "PersonThinBuilder.h"
+#import "PPStateObject.h"
 
 #endif /* Configure_h */

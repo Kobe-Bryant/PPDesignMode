@@ -10,4 +10,6 @@
 
 @interface PPStateObject : NSObject
 
++ (void)PrintProgram:(NSInteger)hour isFinished:(BOOL)finish;
+
 @end

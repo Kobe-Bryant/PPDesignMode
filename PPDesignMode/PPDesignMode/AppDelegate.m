@@ -212,9 +212,16 @@
     static int hour = 0;
     static BOOL workFinshed = false;
    
+    [PPStateObject PrintProgram:7 isFinished:workFinshed];
+    [PPStateObject PrintProgram:10 isFinished:workFinshed];
+    [PPStateObject PrintProgram:12 isFinished:workFinshed];
+    [PPStateObject PrintProgram:13 isFinished:workFinshed];
+    [PPStateObject PrintProgram:14 isFinished:workFinshed];
+    [PPStateObject PrintProgram:17 isFinished:workFinshed];
+    workFinshed = true;
     
-    
-    
+    [PPStateObject PrintProgram:19 isFinished:workFinshed];
+    [PPStateObject PrintProgram:22 isFinished:workFinshed];
     
     
     
