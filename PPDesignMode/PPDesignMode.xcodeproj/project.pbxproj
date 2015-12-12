@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E21F7F5E1C1851EA00E7E733 /* PPStateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E21F7F5D1C1851EA00E7E733 /* PPStateObject.m */; };
 		E23E52331C07206600CE78D0 /* Sneakers.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E52301C07206600CE78D0 /* Sneakers.m */; };
 		E23E52341C07206600CE78D0 /* Suit.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E52321C07206600CE78D0 /* Suit.m */; };
 		E23E523F1C07208F00CE78D0 /* PPComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E52361C07208F00CE78D0 /* PPComponent.m */; };
@@ -78,6 +79,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E21F7F5C1C1851EA00E7E733 /* PPStateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPStateObject.h; sourceTree = "<group>"; };
+		E21F7F5D1C1851EA00E7E733 /* PPStateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPStateObject.m; sourceTree = "<group>"; };
 		E23E520A1C05E65100CE78D0 /* Configure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Configure.h; sourceTree = "<group>"; };
 		E23E522F1C07206600CE78D0 /* Sneakers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sneakers.h; path = "DecoratePattern(装饰模式)/Sneakers.h"; sourceTree = "<group>"; };
 		E23E52301C07206600CE78D0 /* Sneakers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sneakers.m; path = "DecoratePattern(装饰模式)/Sneakers.m"; sourceTree = "<group>"; };
@@ -209,6 +212,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E21F7F591C184FC200E7E733 /* StatePattern(状态模式) */ = {
+			isa = PBXGroup;
+			children = (
+				E21F7F5B1C18506300E7E733 /* second version */,
+				E21F7F5A1C18505500E7E733 /* first version */,
+			);
+			name = "StatePattern(状态模式)";
+			sourceTree = "<group>";
+		};
+		E21F7F5A1C18505500E7E733 /* first version */ = {
+			isa = PBXGroup;
+			children = (
+				E21F7F5C1C1851EA00E7E733 /* PPStateObject.h */,
+				E21F7F5D1C1851EA00E7E733 /* PPStateObject.m */,
+			);
+			name = "first version";
+			sourceTree = "<group>";
+		};
+		E21F7F5B1C18506300E7E733 /* second version */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "second version";
+			sourceTree = "<group>";
+		};
 		E23E51E41C05D3CD00CE78D0 /* third method */ = {
 			isa = PBXGroup;
 			children = (
@@ -398,6 +426,7 @@
 		E2DB3A701BFC18410014C757 /* PPDesignMode */ = {
 			isa = PBXGroup;
 			children = (
+				E21F7F591C184FC200E7E733 /* StatePattern(状态模式) */,
 				E23E52A11C08558F00CE78D0 /* 建造者模式 */,
 				E23E52851C084E1000CE78D0 /* AppearanceMode(外观模式) */,
 				E23E527B1C08446B00CE78D0 /*  TemplateMode(模板模式) */,
@@ -634,6 +663,7 @@
 				E279F43D1C0589F5004A20AD /* PPOperation.m in Sources */,
 				E279F43C1C0589F5004A20AD /* OperationSub.m in Sources */,
 				E2DB3A731BFC18410014C757 /* AppDelegate.m in Sources */,
+				E21F7F5E1C1851EA00E7E733 /* PPStateObject.m in Sources */,
 				E279F44E1C058A2A004A20AD /* CashReturn.m in Sources */,
 				E23E52731C08377800CE78D0 /* SubFactory.m in Sources */,
 				E279F4681C05A073004A20AD /* Finery.m in Sources */,

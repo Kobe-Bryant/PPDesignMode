@@ -19,7 +19,7 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
    
     
-    NSLog(@"test by mafeng");
+     NSLog(@"test by mafeng");
     /* first version
      double number1 = 0;
      double number2 = 0;
@@ -206,6 +206,26 @@
     builder = [[PersonFatBuilder alloc]init];
     [director setBuilder:builder];
     [director createPerson];
+    */
+    
+    //状态模式
+    static int hour = 0;
+    static BOOL workFinshed = false;
+   
+    
+    
+    
+    
+    
+    
+    /*
+     
+     
+     
+     
+     
+     
+     
     */
     
     
