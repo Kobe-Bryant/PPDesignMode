@@ -41,5 +41,10 @@
 #import "PPStateObject.h"
 #import "PPWork.h"
 #import "PPState.h"
+#import "PPPlayer.h"
+#import "PPCenterPlayer.h"
+#import "PPGuardsPlayer.h"
+#import "PPForeignCenterPlayer.h"
+#import "PPTranslator.h"
 
 #endif /* Configure_h */

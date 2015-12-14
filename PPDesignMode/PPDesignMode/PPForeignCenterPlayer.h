@@ -1,5 +1,5 @@
 //
-//  PPForwardsPlayer.h
+//  PPForeignCenterPlayer.h
 //  PPDesignMode
 //
 //  Created by patpat on 15/12/14.
@@ -8,6 +8,9 @@
 
 #import "PPPlayer.h"
 
-@interface PPForwardsPlayer : PPPlayer
+@interface PPForeignCenterPlayer : PPPlayer
+
+- (void)foreignAttack;//进攻
+- (void)foreignDefense;//防守
 
 @end

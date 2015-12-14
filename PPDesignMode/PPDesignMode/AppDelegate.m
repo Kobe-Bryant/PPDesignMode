@@ -226,48 +226,58 @@
     */
     
     //second version
-    PPWork* ppwork = [[PPWork alloc]init];
-    ppwork.workFinish = NO;
-    [ppwork work];
-    ppwork.hour = 9;
-    [ppwork writeProgram];
-    
-    ppwork.hour = 10;
-    [ppwork writeProgram];
-    
-    ppwork.hour = 12;
-    [ppwork writeProgram];
-    
-    
-    ppwork.hour = 13;
-    [ppwork writeProgram];
-    
-    ppwork.hour = 14;
-    [ppwork writeProgram];
-    ppwork.hour = 17;
-    [ppwork writeProgram];
-    
-    ppwork.hour = 19;
-    [ppwork writeProgram];
-    
-    ppwork.hour = 22;
-    [ppwork writeProgram];
-    
-    [ppwork work];
-    ppwork.hour = 21;
-    ppwork.workFinish = YES;
-    [ppwork writeProgram];
-    
-    /*
-    
-    
+     /*
+     PPWork* ppwork = [[PPWork alloc]init];
+     ppwork.workFinish = NO;
+     [ppwork work];
+     ppwork.hour = 9;
+     [ppwork writeProgram];
+     
+     ppwork.hour = 10;
+     [ppwork writeProgram];
+     
+     ppwork.hour = 12;
+     [ppwork writeProgram];
      
      
+     ppwork.hour = 13;
+     [ppwork writeProgram];
      
+     ppwork.hour = 14;
+     [ppwork writeProgram];
+     ppwork.hour = 17;
+     [ppwork writeProgram];
      
+     ppwork.hour = 19;
+     [ppwork writeProgram];
+     
+     ppwork.hour = 22;
+     [ppwork writeProgram];
+     
+     [ppwork work];
+     ppwork.hour = 21;
+     ppwork.workFinish = YES;
+     [ppwork writeProgram];
     */
     
+    //适配器模式
     
+    PPPlayer* b = [[PPGuardsPlayer alloc]init];
+    b.name = @"巴蒂尔";
+    [b attack];
+    
+    PPPlayer* c = [[PPTranslator alloc]init];
+    c.name = @"yao ming";
+    //[c ppTranslator:@"yao ming"];
+    [c attack];
+    [c defense];
+    
+    /*
+     
+     
+     
+     
+     */
     
     
     

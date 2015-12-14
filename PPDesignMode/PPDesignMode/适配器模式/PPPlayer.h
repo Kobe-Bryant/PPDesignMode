@@ -8,8 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+
 @interface PPPlayer : NSObject
 @property(nonatomic,strong) NSString* name;
-- (void)attack;
-- (void)defense;
+- (void)attack;//进攻
+- (void)defense;//防守
 @end

@@ -10,4 +10,15 @@
 
 @implementation PPGuardsPlayer
 
+- (void)attack
+{
+    NSLog(@"GuardsPlayer %@ 进攻",self.name);
+}
+
+- (void)defense
+{
+    NSLog(@"GuardsPlayer %@ 防守",self.name);
+}
+
+
 @end

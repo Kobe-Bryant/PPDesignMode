@@ -10,4 +10,15 @@
 
 @implementation PPCenterPlayer
 
+- (void)attack
+{
+    NSLog(@"CenterPlayer %@ 进攻",self.name);
+}
+
+- (void)defense
+{
+    NSLog(@"CenterPlayer %@ 防守",self.name);
+}
+
+
 @end

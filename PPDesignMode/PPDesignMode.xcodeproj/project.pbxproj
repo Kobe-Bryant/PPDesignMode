@@ -62,9 +62,10 @@
 		E2AABA121C1EC25C00B82F5E /* PPState.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA091C1EC25C00B82F5E /* PPState.m */; };
 		E2AABA131C1EC25C00B82F5E /* PPWork.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA0B1C1EC25C00B82F5E /* PPWork.m */; };
 		E2AABA291C1ECA6700B82F5E /* PPCenterPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA221C1ECA6700B82F5E /* PPCenterPlayer.m */; };
-		E2AABA2A1C1ECA6700B82F5E /* PPForwardsPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA241C1ECA6700B82F5E /* PPForwardsPlayer.m */; };
 		E2AABA2B1C1ECA6700B82F5E /* PPGuardsPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA261C1ECA6700B82F5E /* PPGuardsPlayer.m */; };
 		E2AABA2C1C1ECA6700B82F5E /* PPPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA281C1ECA6700B82F5E /* PPPlayer.m */; };
+		E2AABA2F1C1EDD0B00B82F5E /* PPForeignCenterPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA2E1C1EDD0B00B82F5E /* PPForeignCenterPlayer.m */; };
+		E2AABA321C1EDE4900B82F5E /* PPTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA311C1EDE4900B82F5E /* PPTranslator.m */; };
 		E2DB3A731BFC18410014C757 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3A721BFC18410014C757 /* AppDelegate.m */; };
 		E2DB3A761BFC18410014C757 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3A751BFC18410014C757 /* main.m */; };
 		E2DB3A781BFC18410014C757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2DB3A771BFC18410014C757 /* Assets.xcassets */; };
@@ -202,12 +203,14 @@
 		E2AABA0B1C1EC25C00B82F5E /* PPWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPWork.m; path = "StatePattern(状态模式)/PPWork.m"; sourceTree = "<group>"; };
 		E2AABA211C1ECA6700B82F5E /* PPCenterPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPCenterPlayer.h; path = "适配器模式/PPCenterPlayer.h"; sourceTree = "<group>"; };
 		E2AABA221C1ECA6700B82F5E /* PPCenterPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPCenterPlayer.m; path = "适配器模式/PPCenterPlayer.m"; sourceTree = "<group>"; };
-		E2AABA231C1ECA6700B82F5E /* PPForwardsPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPForwardsPlayer.h; path = "适配器模式/PPForwardsPlayer.h"; sourceTree = "<group>"; };
-		E2AABA241C1ECA6700B82F5E /* PPForwardsPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPForwardsPlayer.m; path = "适配器模式/PPForwardsPlayer.m"; sourceTree = "<group>"; };
 		E2AABA251C1ECA6700B82F5E /* PPGuardsPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPGuardsPlayer.h; path = "适配器模式/PPGuardsPlayer.h"; sourceTree = "<group>"; };
 		E2AABA261C1ECA6700B82F5E /* PPGuardsPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPGuardsPlayer.m; path = "适配器模式/PPGuardsPlayer.m"; sourceTree = "<group>"; };
 		E2AABA271C1ECA6700B82F5E /* PPPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPPlayer.h; path = "适配器模式/PPPlayer.h"; sourceTree = "<group>"; };
 		E2AABA281C1ECA6700B82F5E /* PPPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPPlayer.m; path = "适配器模式/PPPlayer.m"; sourceTree = "<group>"; };
+		E2AABA2D1C1EDD0B00B82F5E /* PPForeignCenterPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPForeignCenterPlayer.h; sourceTree = "<group>"; };
+		E2AABA2E1C1EDD0B00B82F5E /* PPForeignCenterPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPForeignCenterPlayer.m; sourceTree = "<group>"; };
+		E2AABA301C1EDE4900B82F5E /* PPTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPTranslator.h; sourceTree = "<group>"; };
+		E2AABA311C1EDE4900B82F5E /* PPTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPTranslator.m; sourceTree = "<group>"; };
 		E2DB3A6E1BFC18410014C757 /* PPDesignMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPDesignMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DB3A711BFC18410014C757 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2DB3A721BFC18410014C757 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -460,12 +463,14 @@
 			children = (
 				E2AABA211C1ECA6700B82F5E /* PPCenterPlayer.h */,
 				E2AABA221C1ECA6700B82F5E /* PPCenterPlayer.m */,
-				E2AABA231C1ECA6700B82F5E /* PPForwardsPlayer.h */,
-				E2AABA241C1ECA6700B82F5E /* PPForwardsPlayer.m */,
 				E2AABA251C1ECA6700B82F5E /* PPGuardsPlayer.h */,
 				E2AABA261C1ECA6700B82F5E /* PPGuardsPlayer.m */,
 				E2AABA271C1ECA6700B82F5E /* PPPlayer.h */,
 				E2AABA281C1ECA6700B82F5E /* PPPlayer.m */,
+				E2AABA2D1C1EDD0B00B82F5E /* PPForeignCenterPlayer.h */,
+				E2AABA2E1C1EDD0B00B82F5E /* PPForeignCenterPlayer.m */,
+				E2AABA301C1EDE4900B82F5E /* PPTranslator.h */,
+				E2AABA311C1EDE4900B82F5E /* PPTranslator.m */,
 			);
 			name = "适配器模式";
 			sourceTree = "<group>";
@@ -709,7 +714,6 @@
 				E23E52B71C085D2600CE78D0 /* PersonDirector.m in Sources */,
 				E279F4691C05A073004A20AD /* Person.m in Sources */,
 				E2AABA0F1C1EC25C00B82F5E /* PPNoonState.m in Sources */,
-				E2AABA2A1C1ECA6700B82F5E /* PPForwardsPlayer.m in Sources */,
 				E23E524E1C07209E00CE78D0 /* People.m in Sources */,
 				E2AABA2C1C1ECA6700B82F5E /* PPPlayer.m in Sources */,
 				E23E528C1C084E4500CE78D0 /* AbstractClass.m in Sources */,
@@ -718,6 +722,8 @@
 				E279F4391C0589F5004A20AD /* OperationDiv.m in Sources */,
 				E23E52A01C08550D00CE78D0 /* SystemTwo.m in Sources */,
 				E279F44F1C058A2A004A20AD /* CashSuper.m in Sources */,
+				E2AABA321C1EDE4900B82F5E /* PPTranslator.m in Sources */,
+				E2AABA2F1C1EDD0B00B82F5E /* PPForeignCenterPlayer.m in Sources */,
 				E23E52701C08377800CE78D0 /* DivFactory.m in Sources */,
 				E23E52431C07208F00CE78D0 /* PPDecoratorComponent.m in Sources */,
 				E23E528D1C084E4500CE78D0 /* ConcreteClassA.m in Sources */,
