@@ -13,7 +13,6 @@
 {
    PPState* _state;
 }
-
 @end
 
 @implementation PPWork
