@@ -443,6 +443,13 @@
 			name = "second method";
 			sourceTree = "<group>";
 		};
+		E2AABA141C1EC30200B82F5E /* 适配器模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "适配器模式";
+			sourceTree = "<group>";
+		};
 		E2DB3A651BFC18410014C757 = {
 			isa = PBXGroup;
 			children = (
@@ -466,6 +473,7 @@
 		E2DB3A701BFC18410014C757 /* PPDesignMode */ = {
 			isa = PBXGroup;
 			children = (
+				E2AABA141C1EC30200B82F5E /* 适配器模式 */,
 				E21F7F591C184FC200E7E733 /* StatePattern(状态模式) */,
 				E23E52A11C08558F00CE78D0 /* 建造者模式 */,
 				E23E52851C084E1000CE78D0 /* AppearanceMode(外观模式) */,
