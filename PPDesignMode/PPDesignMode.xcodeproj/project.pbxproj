@@ -53,6 +53,14 @@
 		E279F4691C05A073004A20AD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4641C05A073004A20AD /* Person.m */; };
 		E279F46A1C05A073004A20AD /* TShirts.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4661C05A073004A20AD /* TShirts.m */; };
 		E2AAB9E21C1C1F8300B82F5E /* PPStateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AAB9E11C1C1F8300B82F5E /* PPStateObject.m */; };
+		E2AAB9E61C1EA88800B82F5E /* PPState.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AAB9E51C1EA88800B82F5E /* PPState.m */; };
+		E2AAB9E91C1EA89D00B82F5E /* PPWork.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AAB9E81C1EA89D00B82F5E /* PPWork.m */; };
+		E2AAB9EC1C1EAC8C00B82F5E /* PPForenoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AAB9EB1C1EAC8C00B82F5E /* PPForenoonState.m */; };
+		E2AAB9EF1C1EAD1300B82F5E /* PPNoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AAB9EE1C1EAD1300B82F5E /* PPNoonState.m */; };
+		E2AAB9F21C1EAE3800B82F5E /* PPAfterNoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AAB9F11C1EAE3800B82F5E /* PPAfterNoonState.m */; };
+		E2AAB9F51C1EB01B00B82F5E /* PPEveningState.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AAB9F41C1EB01B00B82F5E /* PPEveningState.m */; };
+		E2AAB9F81C1EB0F900B82F5E /* PPRestState.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AAB9F71C1EB0F900B82F5E /* PPRestState.m */; };
+		E2AAB9FB1C1EB18500B82F5E /* PPSleepingState.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AAB9FA1C1EB18500B82F5E /* PPSleepingState.m */; };
 		E2DB3A731BFC18410014C757 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3A721BFC18410014C757 /* AppDelegate.m */; };
 		E2DB3A761BFC18410014C757 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3A751BFC18410014C757 /* main.m */; };
 		E2DB3A781BFC18410014C757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2DB3A771BFC18410014C757 /* Assets.xcassets */; };
@@ -172,6 +180,22 @@
 		E2AAB9E01C1C1F8300B82F5E /* PPStateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPStateObject.h; path = "StatePattern(状态模式)/PPStateObject.h"; sourceTree = "<group>"; };
 		E2AAB9E11C1C1F8300B82F5E /* PPStateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPStateObject.m; path = "StatePattern(状态模式)/PPStateObject.m"; sourceTree = "<group>"; };
 		E2AAB9E31C1C20A500B82F5E /* Configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Configure.h; path = configure/Configure.h; sourceTree = "<group>"; };
+		E2AAB9E41C1EA88800B82F5E /* PPState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPState.h; sourceTree = "<group>"; };
+		E2AAB9E51C1EA88800B82F5E /* PPState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPState.m; sourceTree = "<group>"; };
+		E2AAB9E71C1EA89D00B82F5E /* PPWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPWork.h; sourceTree = "<group>"; };
+		E2AAB9E81C1EA89D00B82F5E /* PPWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPWork.m; sourceTree = "<group>"; };
+		E2AAB9EA1C1EAC8C00B82F5E /* PPForenoonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPForenoonState.h; sourceTree = "<group>"; };
+		E2AAB9EB1C1EAC8C00B82F5E /* PPForenoonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPForenoonState.m; sourceTree = "<group>"; };
+		E2AAB9ED1C1EAD1300B82F5E /* PPNoonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPNoonState.h; sourceTree = "<group>"; };
+		E2AAB9EE1C1EAD1300B82F5E /* PPNoonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPNoonState.m; sourceTree = "<group>"; };
+		E2AAB9F01C1EAE3800B82F5E /* PPAfterNoonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPAfterNoonState.h; sourceTree = "<group>"; };
+		E2AAB9F11C1EAE3800B82F5E /* PPAfterNoonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPAfterNoonState.m; sourceTree = "<group>"; };
+		E2AAB9F31C1EB01B00B82F5E /* PPEveningState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPEveningState.h; sourceTree = "<group>"; };
+		E2AAB9F41C1EB01B00B82F5E /* PPEveningState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPEveningState.m; sourceTree = "<group>"; };
+		E2AAB9F61C1EB0F900B82F5E /* PPRestState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPRestState.h; sourceTree = "<group>"; };
+		E2AAB9F71C1EB0F900B82F5E /* PPRestState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPRestState.m; sourceTree = "<group>"; };
+		E2AAB9F91C1EB18500B82F5E /* PPSleepingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSleepingState.h; sourceTree = "<group>"; };
+		E2AAB9FA1C1EB18500B82F5E /* PPSleepingState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSleepingState.m; sourceTree = "<group>"; };
 		E2DB3A6E1BFC18410014C757 /* PPDesignMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPDesignMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DB3A711BFC18410014C757 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2DB3A721BFC18410014C757 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -233,6 +257,22 @@
 		E21F7F5B1C18506300E7E733 /* second version */ = {
 			isa = PBXGroup;
 			children = (
+				E2AAB9E71C1EA89D00B82F5E /* PPWork.h */,
+				E2AAB9E81C1EA89D00B82F5E /* PPWork.m */,
+				E2AAB9E41C1EA88800B82F5E /* PPState.h */,
+				E2AAB9E51C1EA88800B82F5E /* PPState.m */,
+				E2AAB9EA1C1EAC8C00B82F5E /* PPForenoonState.h */,
+				E2AAB9EB1C1EAC8C00B82F5E /* PPForenoonState.m */,
+				E2AAB9ED1C1EAD1300B82F5E /* PPNoonState.h */,
+				E2AAB9EE1C1EAD1300B82F5E /* PPNoonState.m */,
+				E2AAB9F01C1EAE3800B82F5E /* PPAfterNoonState.h */,
+				E2AAB9F11C1EAE3800B82F5E /* PPAfterNoonState.m */,
+				E2AAB9F31C1EB01B00B82F5E /* PPEveningState.h */,
+				E2AAB9F41C1EB01B00B82F5E /* PPEveningState.m */,
+				E2AAB9F61C1EB0F900B82F5E /* PPRestState.h */,
+				E2AAB9F71C1EB0F900B82F5E /* PPRestState.m */,
+				E2AAB9F91C1EB18500B82F5E /* PPSleepingState.h */,
+				E2AAB9FA1C1EB18500B82F5E /* PPSleepingState.m */,
 			);
 			name = "second version";
 			sourceTree = "<group>";
@@ -633,27 +673,34 @@
 				E23E52411C07208F00CE78D0 /* PPConcreteDecoratorComponentA.m in Sources */,
 				E23E52721C08377800CE78D0 /* MulFactory.m in Sources */,
 				E23E52341C07206600CE78D0 /* Suit.m in Sources */,
+				E2AAB9FB1C1EB18500B82F5E /* PPSleepingState.m in Sources */,
 				E279F44A1C058A2A004A20AD /* CashContext.m in Sources */,
 				E23E52331C07206600CE78D0 /* Sneakers.m in Sources */,
 				E279F46A1C05A073004A20AD /* TShirts.m in Sources */,
+				E2AAB9F81C1EB0F900B82F5E /* PPRestState.m in Sources */,
 				E279F43B1C0589F5004A20AD /* OperationMul.m in Sources */,
 				E23E52B71C085D2600CE78D0 /* PersonDirector.m in Sources */,
 				E279F4691C05A073004A20AD /* Person.m in Sources */,
 				E23E524E1C07209E00CE78D0 /* People.m in Sources */,
+				E2AAB9EF1C1EAD1300B82F5E /* PPNoonState.m in Sources */,
 				E23E528C1C084E4500CE78D0 /* AbstractClass.m in Sources */,
 				E23E526F1C08377800CE78D0 /* AddFactory.m in Sources */,
 				E23E52511C07209E00CE78D0 /* PPSuit.m in Sources */,
 				E279F4391C0589F5004A20AD /* OperationDiv.m in Sources */,
 				E23E52A01C08550D00CE78D0 /* SystemTwo.m in Sources */,
+				E2AAB9E91C1EA89D00B82F5E /* PPWork.m in Sources */,
 				E279F44F1C058A2A004A20AD /* CashSuper.m in Sources */,
 				E23E52701C08377800CE78D0 /* DivFactory.m in Sources */,
 				E23E52431C07208F00CE78D0 /* PPDecoratorComponent.m in Sources */,
+				E2AAB9E61C1EA88800B82F5E /* PPState.m in Sources */,
 				E23E528D1C084E4500CE78D0 /* ConcreteClassA.m in Sources */,
 				E279F44C1C058A2A004A20AD /* CashNormal.m in Sources */,
+				E2AAB9F51C1EB01B00B82F5E /* PPEveningState.m in Sources */,
 				E2DB3A761BFC18410014C757 /* main.m in Sources */,
 				E279F44D1C058A2A004A20AD /* CashRebate.m in Sources */,
 				E279F43A1C0589F5004A20AD /* OperationFactory.m in Sources */,
 				E23E524F1C07209E00CE78D0 /* PPBigTrouser.m in Sources */,
+				E2AAB9EC1C1EAC8C00B82F5E /* PPForenoonState.m in Sources */,
 				E279F4671C05A073004A20AD /* BigTrouser.m in Sources */,
 				E279F44B1C058A2A004A20AD /* CashFactory.m in Sources */,
 				E23E52501C07209E00CE78D0 /* PPFinery.m in Sources */,
@@ -672,6 +719,7 @@
 				E23E52711C08377800CE78D0 /* IFactory.m in Sources */,
 				E23E527A1C08444600CE78D0 /* Resume.m in Sources */,
 				E23E523F1C07208F00CE78D0 /* PPComponent.m in Sources */,
+				E2AAB9F21C1EAE3800B82F5E /* PPAfterNoonState.m in Sources */,
 				E23E52B61C085D2600CE78D0 /* PersonBuilder.m in Sources */,
 				E23E52401C07208F00CE78D0 /* PPConcreteComponent.m in Sources */,
 				E279F4371C0589F5004A20AD /* Operation.m in Sources */,

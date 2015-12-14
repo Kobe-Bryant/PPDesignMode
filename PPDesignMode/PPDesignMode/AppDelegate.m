@@ -208,38 +208,64 @@
     [director createPerson];
     */
     
-    //状态模式
-    static int hour = 0;
-    static BOOL workFinshed = false;
-   
-    [PPStateObject PrintProgram:7 isFinished:workFinshed];
-    [PPStateObject PrintProgram:10 isFinished:workFinshed];
-    [PPStateObject PrintProgram:12 isFinished:workFinshed];
-    [PPStateObject PrintProgram:13 isFinished:workFinshed];
-    [PPStateObject PrintProgram:14 isFinished:workFinshed];
-    [PPStateObject PrintProgram:17 isFinished:workFinshed];
-    workFinshed = true;
+    //状态模式 first version
+    /*
+     static int hour = 0;
+     static BOOL workFinshed = false;
+     
+     [PPStateObject PrintProgram:7 isFinished:workFinshed];
+     [PPStateObject PrintProgram:10 isFinished:workFinshed];
+     [PPStateObject PrintProgram:12 isFinished:workFinshed];
+     [PPStateObject PrintProgram:13 isFinished:workFinshed];
+     [PPStateObject PrintProgram:14 isFinished:workFinshed];
+     [PPStateObject PrintProgram:17 isFinished:workFinshed];
+     workFinshed = true;
+     
+     [PPStateObject PrintProgram:19 isFinished:workFinshed];
+     [PPStateObject PrintProgram:22 isFinished:workFinshed];
+    */
     
-    [PPStateObject PrintProgram:19 isFinished:workFinshed];
-    [PPStateObject PrintProgram:22 isFinished:workFinshed];
+    //second version
+    PPWork* ppwork = [[PPWork alloc]init];
+    ppwork.workFinish = NO;
+    [ppwork work];
+    ppwork.hour = 9;
+    [ppwork writeProgram];
+    
+    ppwork.hour = 10;
+    [ppwork writeProgram];
+    
+    ppwork.hour = 12;
+    [ppwork writeProgram];
     
     
+    ppwork.hour = 13;
+    [ppwork writeProgram];
     
+    ppwork.hour = 14;
+    [ppwork writeProgram];
+    ppwork.hour = 17;
+    [ppwork writeProgram];
     
+    ppwork.hour = 19;
+    [ppwork writeProgram];
     
+    ppwork.hour = 22;
+    [ppwork writeProgram];
+    
+    [ppwork work];
+    ppwork.hour = 21;
+    ppwork.workFinish = YES;
+    [ppwork writeProgram];
     
     /*
-     
-     
-     
+    
+    
      
      
      
      
     */
-    
-    
-    
     
     
     
