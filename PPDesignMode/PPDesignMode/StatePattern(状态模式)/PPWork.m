@@ -17,7 +17,6 @@
 @end
 
 @implementation PPWork
-
 - (void)work
 {
   //初始化状态为上午
