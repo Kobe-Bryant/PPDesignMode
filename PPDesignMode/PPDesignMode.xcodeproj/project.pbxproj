@@ -61,10 +61,10 @@
 		E2AABA111C1EC25C00B82F5E /* PPSleepingState.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA071C1EC25C00B82F5E /* PPSleepingState.m */; };
 		E2AABA121C1EC25C00B82F5E /* PPState.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA091C1EC25C00B82F5E /* PPState.m */; };
 		E2AABA131C1EC25C00B82F5E /* PPWork.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA0B1C1EC25C00B82F5E /* PPWork.m */; };
-		E2AABA171C1EC89A00B82F5E /* PPPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA161C1EC89A00B82F5E /* PPPlayer.m */; };
-		E2AABA1A1C1EC99900B82F5E /* PPForwardsPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA191C1EC99900B82F5E /* PPForwardsPlayer.m */; };
-		E2AABA1D1C1EC9B100B82F5E /* PPCenterPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA1C1C1EC9B100B82F5E /* PPCenterPlayer.m */; };
-		E2AABA201C1EC9CA00B82F5E /* PPGuardsPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA1F1C1EC9CA00B82F5E /* PPGuardsPlayer.m */; };
+		E2AABA291C1ECA6700B82F5E /* PPCenterPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA221C1ECA6700B82F5E /* PPCenterPlayer.m */; };
+		E2AABA2A1C1ECA6700B82F5E /* PPForwardsPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA241C1ECA6700B82F5E /* PPForwardsPlayer.m */; };
+		E2AABA2B1C1ECA6700B82F5E /* PPGuardsPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA261C1ECA6700B82F5E /* PPGuardsPlayer.m */; };
+		E2AABA2C1C1ECA6700B82F5E /* PPPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA281C1ECA6700B82F5E /* PPPlayer.m */; };
 		E2DB3A731BFC18410014C757 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3A721BFC18410014C757 /* AppDelegate.m */; };
 		E2DB3A761BFC18410014C757 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3A751BFC18410014C757 /* main.m */; };
 		E2DB3A781BFC18410014C757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2DB3A771BFC18410014C757 /* Assets.xcassets */; };
@@ -200,14 +200,14 @@
 		E2AABA091C1EC25C00B82F5E /* PPState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPState.m; path = "StatePattern(状态模式)/PPState.m"; sourceTree = "<group>"; };
 		E2AABA0A1C1EC25C00B82F5E /* PPWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPWork.h; path = "StatePattern(状态模式)/PPWork.h"; sourceTree = "<group>"; };
 		E2AABA0B1C1EC25C00B82F5E /* PPWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPWork.m; path = "StatePattern(状态模式)/PPWork.m"; sourceTree = "<group>"; };
-		E2AABA151C1EC89A00B82F5E /* PPPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPPlayer.h; sourceTree = "<group>"; };
-		E2AABA161C1EC89A00B82F5E /* PPPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPPlayer.m; sourceTree = "<group>"; };
-		E2AABA181C1EC99900B82F5E /* PPForwardsPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPForwardsPlayer.h; sourceTree = "<group>"; };
-		E2AABA191C1EC99900B82F5E /* PPForwardsPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPForwardsPlayer.m; sourceTree = "<group>"; };
-		E2AABA1B1C1EC9B100B82F5E /* PPCenterPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPCenterPlayer.h; sourceTree = "<group>"; };
-		E2AABA1C1C1EC9B100B82F5E /* PPCenterPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPCenterPlayer.m; sourceTree = "<group>"; };
-		E2AABA1E1C1EC9CA00B82F5E /* PPGuardsPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPGuardsPlayer.h; sourceTree = "<group>"; };
-		E2AABA1F1C1EC9CA00B82F5E /* PPGuardsPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPGuardsPlayer.m; sourceTree = "<group>"; };
+		E2AABA211C1ECA6700B82F5E /* PPCenterPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPCenterPlayer.h; path = "适配器模式/PPCenterPlayer.h"; sourceTree = "<group>"; };
+		E2AABA221C1ECA6700B82F5E /* PPCenterPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPCenterPlayer.m; path = "适配器模式/PPCenterPlayer.m"; sourceTree = "<group>"; };
+		E2AABA231C1ECA6700B82F5E /* PPForwardsPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPForwardsPlayer.h; path = "适配器模式/PPForwardsPlayer.h"; sourceTree = "<group>"; };
+		E2AABA241C1ECA6700B82F5E /* PPForwardsPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPForwardsPlayer.m; path = "适配器模式/PPForwardsPlayer.m"; sourceTree = "<group>"; };
+		E2AABA251C1ECA6700B82F5E /* PPGuardsPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPGuardsPlayer.h; path = "适配器模式/PPGuardsPlayer.h"; sourceTree = "<group>"; };
+		E2AABA261C1ECA6700B82F5E /* PPGuardsPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPGuardsPlayer.m; path = "适配器模式/PPGuardsPlayer.m"; sourceTree = "<group>"; };
+		E2AABA271C1ECA6700B82F5E /* PPPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPPlayer.h; path = "适配器模式/PPPlayer.h"; sourceTree = "<group>"; };
+		E2AABA281C1ECA6700B82F5E /* PPPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPPlayer.m; path = "适配器模式/PPPlayer.m"; sourceTree = "<group>"; };
 		E2DB3A6E1BFC18410014C757 /* PPDesignMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPDesignMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DB3A711BFC18410014C757 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2DB3A721BFC18410014C757 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -458,14 +458,14 @@
 		E2AABA141C1EC30200B82F5E /* 适配器模式 */ = {
 			isa = PBXGroup;
 			children = (
-				E2AABA151C1EC89A00B82F5E /* PPPlayer.h */,
-				E2AABA161C1EC89A00B82F5E /* PPPlayer.m */,
-				E2AABA181C1EC99900B82F5E /* PPForwardsPlayer.h */,
-				E2AABA191C1EC99900B82F5E /* PPForwardsPlayer.m */,
-				E2AABA1B1C1EC9B100B82F5E /* PPCenterPlayer.h */,
-				E2AABA1C1C1EC9B100B82F5E /* PPCenterPlayer.m */,
-				E2AABA1E1C1EC9CA00B82F5E /* PPGuardsPlayer.h */,
-				E2AABA1F1C1EC9CA00B82F5E /* PPGuardsPlayer.m */,
+				E2AABA211C1ECA6700B82F5E /* PPCenterPlayer.h */,
+				E2AABA221C1ECA6700B82F5E /* PPCenterPlayer.m */,
+				E2AABA231C1ECA6700B82F5E /* PPForwardsPlayer.h */,
+				E2AABA241C1ECA6700B82F5E /* PPForwardsPlayer.m */,
+				E2AABA251C1ECA6700B82F5E /* PPGuardsPlayer.h */,
+				E2AABA261C1ECA6700B82F5E /* PPGuardsPlayer.m */,
+				E2AABA271C1ECA6700B82F5E /* PPPlayer.h */,
+				E2AABA281C1ECA6700B82F5E /* PPPlayer.m */,
 			);
 			name = "适配器模式";
 			sourceTree = "<group>";
@@ -707,11 +707,11 @@
 				E279F46A1C05A073004A20AD /* TShirts.m in Sources */,
 				E279F43B1C0589F5004A20AD /* OperationMul.m in Sources */,
 				E23E52B71C085D2600CE78D0 /* PersonDirector.m in Sources */,
-				E2AABA1D1C1EC9B100B82F5E /* PPCenterPlayer.m in Sources */,
 				E279F4691C05A073004A20AD /* Person.m in Sources */,
 				E2AABA0F1C1EC25C00B82F5E /* PPNoonState.m in Sources */,
-				E2AABA1A1C1EC99900B82F5E /* PPForwardsPlayer.m in Sources */,
+				E2AABA2A1C1ECA6700B82F5E /* PPForwardsPlayer.m in Sources */,
 				E23E524E1C07209E00CE78D0 /* People.m in Sources */,
+				E2AABA2C1C1ECA6700B82F5E /* PPPlayer.m in Sources */,
 				E23E528C1C084E4500CE78D0 /* AbstractClass.m in Sources */,
 				E23E526F1C08377800CE78D0 /* AddFactory.m in Sources */,
 				E23E52511C07209E00CE78D0 /* PPSuit.m in Sources */,
@@ -719,9 +719,9 @@
 				E23E52A01C08550D00CE78D0 /* SystemTwo.m in Sources */,
 				E279F44F1C058A2A004A20AD /* CashSuper.m in Sources */,
 				E23E52701C08377800CE78D0 /* DivFactory.m in Sources */,
-				E2AABA171C1EC89A00B82F5E /* PPPlayer.m in Sources */,
 				E23E52431C07208F00CE78D0 /* PPDecoratorComponent.m in Sources */,
 				E23E528D1C084E4500CE78D0 /* ConcreteClassA.m in Sources */,
+				E2AABA2B1C1ECA6700B82F5E /* PPGuardsPlayer.m in Sources */,
 				E2AABA131C1EC25C00B82F5E /* PPWork.m in Sources */,
 				E279F44C1C058A2A004A20AD /* CashNormal.m in Sources */,
 				E2DB3A761BFC18410014C757 /* main.m in Sources */,
@@ -732,6 +732,7 @@
 				E279F4671C05A073004A20AD /* BigTrouser.m in Sources */,
 				E2AABA0E1C1EC25C00B82F5E /* PPForenoonState.m in Sources */,
 				E279F44B1C058A2A004A20AD /* CashFactory.m in Sources */,
+				E2AABA291C1ECA6700B82F5E /* PPCenterPlayer.m in Sources */,
 				E23E52501C07209E00CE78D0 /* PPFinery.m in Sources */,
 				E23E52421C07208F00CE78D0 /* PPConcreteDecoratorComponentB.m in Sources */,
 				E23E528E1C084E4500CE78D0 /* ConcreteClassB.m in Sources */,
@@ -747,7 +748,6 @@
 				E23E529E1C08550D00CE78D0 /* Facade.m in Sources */,
 				E23E52521C07209E00CE78D0 /* PPTShirts.m in Sources */,
 				E2AABA101C1EC25C00B82F5E /* PPRestState.m in Sources */,
-				E2AABA201C1EC9CA00B82F5E /* PPGuardsPlayer.m in Sources */,
 				E2AABA0C1C1EC25C00B82F5E /* PPAfterNoonState.m in Sources */,
 				E23E52711C08377800CE78D0 /* IFactory.m in Sources */,
 				E23E527A1C08444600CE78D0 /* Resume.m in Sources */,
