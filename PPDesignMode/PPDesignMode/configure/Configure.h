@@ -46,5 +46,8 @@
 #import "PPGuardsPlayer.h"
 #import "PPForeignCenterPlayer.h"
 #import "PPTranslator.h"
+#import "PPOriginator.h"
+#import "PPMemento.h"
+#import "PPCaretaker.h"
 
 #endif /* Configure_h */

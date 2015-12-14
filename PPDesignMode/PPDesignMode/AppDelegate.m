@@ -261,23 +261,35 @@
     */
     
     //适配器模式
-    
-    PPPlayer* b = [[PPGuardsPlayer alloc]init];
-    b.name = @"巴蒂尔";
-    [b attack];
-    
-    PPPlayer* c = [[PPTranslator alloc]init];
-    c.name = @"yao ming";
-    //[c ppTranslator:@"yao ming"];
-    [c attack];
-    [c defense];
-    
     /*
+     PPPlayer* b = [[PPGuardsPlayer alloc]init];
+     b.name = @"巴蒂尔";
+     [b attack];
      
+     PPPlayer* c = [[PPTranslator alloc]init];
+     c.name = @"yao ming";
+     //[c ppTranslator:@"yao ming"];
+     [c attack];
+     [c defense];
+    */
+    
+    //备忘录模式
+    /*
+     PPOriginator* orgin = [[PPOriginator alloc]init];
+     orgin.state = @"OFF";
+     [orgin show];
      
+     PPCaretaker* care = [[PPCaretaker alloc]init];
+     care.meto = [orgin createMemento];
+     orgin.state = @"ON";
+     [orgin show];
      
-     
-     */
+     [orgin setMemento:care.meto];
+     [orgin show];
+    */
+    
+    
+    
     
     
     
