@@ -72,6 +72,11 @@
 		E2AABA5C1C1FEAF700B82F5E /* PPGameRole.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA571C1FEAF700B82F5E /* PPGameRole.m */; };
 		E2AABA5D1C1FEAF700B82F5E /* PPRoleStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA591C1FEAF700B82F5E /* PPRoleStateManager.m */; };
 		E2AABA5E1C1FEAF700B82F5E /* PPRoleStateMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA5B1C1FEAF700B82F5E /* PPRoleStateMemento.m */; };
+		E2AABA6C1C1FF38800B82F5E /* PPCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA6B1C1FF38800B82F5E /* PPCompany.m */; };
+		E2AABA731C1FF3B300B82F5E /* PPComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA6E1C1FF3B300B82F5E /* PPComponent.m */; };
+		E2AABA741C1FF3B300B82F5E /* PPComposite.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA701C1FF3B300B82F5E /* PPComposite.m */; };
+		E2AABA751C1FF3B300B82F5E /* PPLeaf.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA721C1FF3B300B82F5E /* PPLeaf.m */; };
+		E2AABA781C1FF4B500B82F5E /* PPConcreteCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA771C1FF4B500B82F5E /* PPConcreteCompany.m */; };
 		E2DB3A731BFC18410014C757 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3A721BFC18410014C757 /* AppDelegate.m */; };
 		E2DB3A761BFC18410014C757 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3A751BFC18410014C757 /* main.m */; };
 		E2DB3A781BFC18410014C757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2DB3A771BFC18410014C757 /* Assets.xcassets */; };
@@ -229,6 +234,16 @@
 		E2AABA591C1FEAF700B82F5E /* PPRoleStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPRoleStateManager.m; path = "备忘录模式/PPRoleStateManager.m"; sourceTree = "<group>"; };
 		E2AABA5A1C1FEAF700B82F5E /* PPRoleStateMemento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPRoleStateMemento.h; path = "备忘录模式/PPRoleStateMemento.h"; sourceTree = "<group>"; };
 		E2AABA5B1C1FEAF700B82F5E /* PPRoleStateMemento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPRoleStateMemento.m; path = "备忘录模式/PPRoleStateMemento.m"; sourceTree = "<group>"; };
+		E2AABA6A1C1FF38800B82F5E /* PPCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPCompany.h; path = "组合模式/PPCompany.h"; sourceTree = "<group>"; };
+		E2AABA6B1C1FF38800B82F5E /* PPCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPCompany.m; path = "组合模式/PPCompany.m"; sourceTree = "<group>"; };
+		E2AABA6D1C1FF3B300B82F5E /* PPComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPComponent.h; path = "组合模式/PPComponent.h"; sourceTree = "<group>"; };
+		E2AABA6E1C1FF3B300B82F5E /* PPComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPComponent.m; path = "组合模式/PPComponent.m"; sourceTree = "<group>"; };
+		E2AABA6F1C1FF3B300B82F5E /* PPComposite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPComposite.h; path = "组合模式/PPComposite.h"; sourceTree = "<group>"; };
+		E2AABA701C1FF3B300B82F5E /* PPComposite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPComposite.m; path = "组合模式/PPComposite.m"; sourceTree = "<group>"; };
+		E2AABA711C1FF3B300B82F5E /* PPLeaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPLeaf.h; path = "组合模式/PPLeaf.h"; sourceTree = "<group>"; };
+		E2AABA721C1FF3B300B82F5E /* PPLeaf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPLeaf.m; path = "组合模式/PPLeaf.m"; sourceTree = "<group>"; };
+		E2AABA761C1FF4B500B82F5E /* PPConcreteCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPConcreteCompany.h; sourceTree = "<group>"; };
+		E2AABA771C1FF4B500B82F5E /* PPConcreteCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPConcreteCompany.m; sourceTree = "<group>"; };
 		E2DB3A6E1BFC18410014C757 /* PPDesignMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPDesignMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DB3A711BFC18410014C757 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2DB3A721BFC18410014C757 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -523,8 +538,26 @@
 		E2AABA5F1C1FECCA00B82F5E /* 组合模式 */ = {
 			isa = PBXGroup;
 			children = (
+				E2AABA691C1FF35700B82F5E /* example */,
+				E2AABA6D1C1FF3B300B82F5E /* PPComponent.h */,
+				E2AABA6E1C1FF3B300B82F5E /* PPComponent.m */,
+				E2AABA6F1C1FF3B300B82F5E /* PPComposite.h */,
+				E2AABA701C1FF3B300B82F5E /* PPComposite.m */,
+				E2AABA711C1FF3B300B82F5E /* PPLeaf.h */,
+				E2AABA721C1FF3B300B82F5E /* PPLeaf.m */,
 			);
 			name = "组合模式";
+			sourceTree = "<group>";
+		};
+		E2AABA691C1FF35700B82F5E /* example */ = {
+			isa = PBXGroup;
+			children = (
+				E2AABA6A1C1FF38800B82F5E /* PPCompany.h */,
+				E2AABA6B1C1FF38800B82F5E /* PPCompany.m */,
+				E2AABA761C1FF4B500B82F5E /* PPConcreteCompany.h */,
+				E2AABA771C1FF4B500B82F5E /* PPConcreteCompany.m */,
+			);
+			name = example;
 			sourceTree = "<group>";
 		};
 		E2DB3A651BFC18410014C757 = {
@@ -794,6 +827,8 @@
 				E23E524F1C07209E00CE78D0 /* PPBigTrouser.m in Sources */,
 				E279F4671C05A073004A20AD /* BigTrouser.m in Sources */,
 				E2AABA0E1C1EC25C00B82F5E /* PPForenoonState.m in Sources */,
+				E2AABA6C1C1FF38800B82F5E /* PPCompany.m in Sources */,
+				E2AABA751C1FF3B300B82F5E /* PPLeaf.m in Sources */,
 				E279F44B1C058A2A004A20AD /* CashFactory.m in Sources */,
 				E2AABA291C1ECA6700B82F5E /* PPCenterPlayer.m in Sources */,
 				E23E52501C07209E00CE78D0 /* PPFinery.m in Sources */,
@@ -802,6 +837,7 @@
 				E23E528E1C084E4500CE78D0 /* ConcreteClassB.m in Sources */,
 				E279F4381C0589F5004A20AD /* OperationAdd.m in Sources */,
 				E2AABA121C1EC25C00B82F5E /* PPState.m in Sources */,
+				E2AABA781C1FF4B500B82F5E /* PPConcreteCompany.m in Sources */,
 				E279F43D1C0589F5004A20AD /* PPOperation.m in Sources */,
 				E279F43C1C0589F5004A20AD /* OperationSub.m in Sources */,
 				E2DB3A731BFC18410014C757 /* AppDelegate.m in Sources */,
@@ -819,7 +855,9 @@
 				E23E523F1C07208F00CE78D0 /* PPComponent.m in Sources */,
 				E23E52B61C085D2600CE78D0 /* PersonBuilder.m in Sources */,
 				E23E52401C07208F00CE78D0 /* PPConcreteComponent.m in Sources */,
+				E2AABA731C1FF3B300B82F5E /* PPComponent.m in Sources */,
 				E279F4371C0589F5004A20AD /* Operation.m in Sources */,
+				E2AABA741C1FF3B300B82F5E /* PPComposite.m in Sources */,
 				E23E529F1C08550D00CE78D0 /* SystemOne.m in Sources */,
 				E2AABA371C1EE1E100B82F5E /* PPForeignCenterPlayer.m in Sources */,
 				E23E52B91C085D2600CE78D0 /* PersonThinBuilder.m in Sources */,
