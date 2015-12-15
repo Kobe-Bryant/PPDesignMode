@@ -274,6 +274,7 @@
     */
     
     //备忘录模式
+    //first version
     /*
      PPOriginator* orgin = [[PPOriginator alloc]init];
      orgin.state = @"OFF";
@@ -286,6 +287,35 @@
      
      [orgin setMemento:care.meto];
      [orgin show];
+    */
+    //second version
+    /*
+     PPGameRole* gameRole = [[PPGameRole alloc]init];
+     [gameRole initState];
+     [gameRole stateDisplay];
+     
+     //保存进度
+     PPRoleStateManager* manager = [[PPRoleStateManager alloc]init];
+     manager.memento = gameRole.saveState;
+     
+     //大战boss前
+     [gameRole fight];
+     [gameRole stateDisplay];
+     
+     //恢复之前的状态
+     [gameRole recoveryState:manager.memento];
+     [gameRole stateDisplay];
+     
+     
+     //继续大战boss前
+     [gameRole fight];
+     [gameRole stateDisplay];
+     
+     
+     //继续恢复之前的状态
+     [gameRole recoveryState:manager.memento];
+     [gameRole stateDisplay];
+     
     */
     
     

@@ -49,5 +49,9 @@
 #import "PPOriginator.h"
 #import "PPMemento.h"
 #import "PPCaretaker.h"
+#import "PPGameRole.h"
+#import "PPRoleStateManager.h"
+#import "PPRoleStateMemento.h"
+
 
 #endif /* Configure_h */
