@@ -520,6 +520,13 @@
 			name = "游戏进度备忘";
 			sourceTree = "<group>";
 		};
+		E2AABA5F1C1FECCA00B82F5E /* 组合模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "组合模式";
+			sourceTree = "<group>";
+		};
 		E2DB3A651BFC18410014C757 = {
 			isa = PBXGroup;
 			children = (
@@ -543,6 +550,7 @@
 		E2DB3A701BFC18410014C757 /* PPDesignMode */ = {
 			isa = PBXGroup;
 			children = (
+				E2AABA5F1C1FECCA00B82F5E /* 组合模式 */,
 				E2AABA391C1EE3F700B82F5E /* 备忘录模式 */,
 				E2AABA141C1EC30200B82F5E /* 适配器模式 */,
 				E21F7F591C184FC200E7E733 /* StatePattern(状态模式) */,
