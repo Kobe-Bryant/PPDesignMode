@@ -69,6 +69,7 @@
 		E2AABA491C1EF0E500B82F5E /* PPCaretaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA441C1EF0E500B82F5E /* PPCaretaker.m */; };
 		E2AABA4A1C1EF0E500B82F5E /* PPMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA461C1EF0E500B82F5E /* PPMemento.m */; };
 		E2AABA4B1C1EF0E500B82F5E /* PPOriginator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA481C1EF0E500B82F5E /* PPOriginator.m */; };
+		E2AABA4F1C1EF27A00B82F5E /* PPGameRole.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA4E1C1EF27A00B82F5E /* PPGameRole.m */; };
 		E2DB3A731BFC18410014C757 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3A721BFC18410014C757 /* AppDelegate.m */; };
 		E2DB3A761BFC18410014C757 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3A751BFC18410014C757 /* main.m */; };
 		E2DB3A781BFC18410014C757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2DB3A771BFC18410014C757 /* Assets.xcassets */; };
@@ -220,6 +221,8 @@
 		E2AABA461C1EF0E500B82F5E /* PPMemento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPMemento.m; path = "备忘录模式/PPMemento.m"; sourceTree = "<group>"; };
 		E2AABA471C1EF0E500B82F5E /* PPOriginator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPOriginator.h; path = "备忘录模式/PPOriginator.h"; sourceTree = "<group>"; };
 		E2AABA481C1EF0E500B82F5E /* PPOriginator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPOriginator.m; path = "备忘录模式/PPOriginator.m"; sourceTree = "<group>"; };
+		E2AABA4D1C1EF27A00B82F5E /* PPGameRole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPGameRole.h; sourceTree = "<group>"; };
+		E2AABA4E1C1EF27A00B82F5E /* PPGameRole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPGameRole.m; sourceTree = "<group>"; };
 		E2DB3A6E1BFC18410014C757 /* PPDesignMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPDesignMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DB3A711BFC18410014C757 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2DB3A721BFC18410014C757 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -487,6 +490,7 @@
 		E2AABA391C1EE3F700B82F5E /* 备忘录模式 */ = {
 			isa = PBXGroup;
 			children = (
+				E2AABA4C1C1EF1AB00B82F5E /* 游戏进度备忘 */,
 				E2AABA431C1EF0E500B82F5E /* PPCaretaker.h */,
 				E2AABA441C1EF0E500B82F5E /* PPCaretaker.m */,
 				E2AABA451C1EF0E500B82F5E /* PPMemento.h */,
@@ -495,6 +499,15 @@
 				E2AABA481C1EF0E500B82F5E /* PPOriginator.m */,
 			);
 			name = "备忘录模式";
+			sourceTree = "<group>";
+		};
+		E2AABA4C1C1EF1AB00B82F5E /* 游戏进度备忘 */ = {
+			isa = PBXGroup;
+			children = (
+				E2AABA4D1C1EF27A00B82F5E /* PPGameRole.h */,
+				E2AABA4E1C1EF27A00B82F5E /* PPGameRole.m */,
+			);
+			name = "游戏进度备忘";
 			sourceTree = "<group>";
 		};
 		E2DB3A651BFC18410014C757 = {
@@ -748,6 +761,7 @@
 				E23E52A01C08550D00CE78D0 /* SystemTwo.m in Sources */,
 				E279F44F1C058A2A004A20AD /* CashSuper.m in Sources */,
 				E23E52701C08377800CE78D0 /* DivFactory.m in Sources */,
+				E2AABA4F1C1EF27A00B82F5E /* PPGameRole.m in Sources */,
 				E23E52431C07208F00CE78D0 /* PPDecoratorComponent.m in Sources */,
 				E23E528D1C084E4500CE78D0 /* ConcreteClassA.m in Sources */,
 				E2AABA2B1C1ECA6700B82F5E /* PPGuardsPlayer.m in Sources */,
