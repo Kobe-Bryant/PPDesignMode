@@ -7,18 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E23E52331C07206600CE78D0 /* Sneakers.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E52301C07206600CE78D0 /* Sneakers.m */; };
-		E23E52341C07206600CE78D0 /* Suit.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E52321C07206600CE78D0 /* Suit.m */; };
-		E23E523F1C07208F00CE78D0 /* PPComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E52361C07208F00CE78D0 /* PPComponent.m */; };
-		E23E52401C07208F00CE78D0 /* PPConcreteComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E52381C07208F00CE78D0 /* PPConcreteComponent.m */; };
-		E23E52411C07208F00CE78D0 /* PPConcreteDecoratorComponentA.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E523A1C07208F00CE78D0 /* PPConcreteDecoratorComponentA.m */; };
-		E23E52421C07208F00CE78D0 /* PPConcreteDecoratorComponentB.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E523C1C07208F00CE78D0 /* PPConcreteDecoratorComponentB.m */; };
-		E23E52431C07208F00CE78D0 /* PPDecoratorComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E523E1C07208F00CE78D0 /* PPDecoratorComponent.m */; };
-		E23E524E1C07209E00CE78D0 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E52451C07209E00CE78D0 /* People.m */; };
-		E23E524F1C07209E00CE78D0 /* PPBigTrouser.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E52471C07209E00CE78D0 /* PPBigTrouser.m */; };
-		E23E52501C07209E00CE78D0 /* PPFinery.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E52491C07209E00CE78D0 /* PPFinery.m */; };
-		E23E52511C07209E00CE78D0 /* PPSuit.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E524B1C07209E00CE78D0 /* PPSuit.m */; };
-		E23E52521C07209E00CE78D0 /* PPTShirts.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E524D1C07209E00CE78D0 /* PPTShirts.m */; };
 		E23E526F1C08377800CE78D0 /* AddFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E52661C08377800CE78D0 /* AddFactory.m */; };
 		E23E52701C08377800CE78D0 /* DivFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E52681C08377800CE78D0 /* DivFactory.m */; };
 		E23E52711C08377800CE78D0 /* IFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E526A1C08377800CE78D0 /* IFactory.m */; };
@@ -48,10 +36,6 @@
 		E279F44D1C058A2A004A20AD /* CashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4451C058A2A004A20AD /* CashRebate.m */; };
 		E279F44E1C058A2A004A20AD /* CashReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4471C058A2A004A20AD /* CashReturn.m */; };
 		E279F44F1C058A2A004A20AD /* CashSuper.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4491C058A2A004A20AD /* CashSuper.m */; };
-		E279F4671C05A073004A20AD /* BigTrouser.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4601C05A073004A20AD /* BigTrouser.m */; };
-		E279F4681C05A073004A20AD /* Finery.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4621C05A073004A20AD /* Finery.m */; };
-		E279F4691C05A073004A20AD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4641C05A073004A20AD /* Person.m */; };
-		E279F46A1C05A073004A20AD /* TShirts.m in Sources */ = {isa = PBXBuildFile; fileRef = E279F4661C05A073004A20AD /* TShirts.m */; };
 		E2AAB9E21C1C1F8300B82F5E /* PPStateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AAB9E11C1C1F8300B82F5E /* PPStateObject.m */; };
 		E2AABA0C1C1EC25C00B82F5E /* PPAfterNoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AAB9FD1C1EC25C00B82F5E /* PPAfterNoonState.m */; };
 		E2AABA0D1C1EC25C00B82F5E /* PPEveningState.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AAB9FF1C1EC25C00B82F5E /* PPEveningState.m */; };
@@ -72,17 +56,16 @@
 		E2AABA5C1C1FEAF700B82F5E /* PPGameRole.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA571C1FEAF700B82F5E /* PPGameRole.m */; };
 		E2AABA5D1C1FEAF700B82F5E /* PPRoleStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA591C1FEAF700B82F5E /* PPRoleStateManager.m */; };
 		E2AABA5E1C1FEAF700B82F5E /* PPRoleStateMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA5B1C1FEAF700B82F5E /* PPRoleStateMemento.m */; };
-		E2AABA6C1C1FF38800B82F5E /* PPCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA6B1C1FF38800B82F5E /* PPCompany.m */; };
-		E2AABA731C1FF3B300B82F5E /* PPComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA6E1C1FF3B300B82F5E /* PPComponent.m */; };
-		E2AABA741C1FF3B300B82F5E /* PPComposite.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA701C1FF3B300B82F5E /* PPComposite.m */; };
-		E2AABA751C1FF3B300B82F5E /* PPLeaf.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AABA721C1FF3B300B82F5E /* PPLeaf.m */; };
 		E2DB3A731BFC18410014C757 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3A721BFC18410014C757 /* AppDelegate.m */; };
 		E2DB3A761BFC18410014C757 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3A751BFC18410014C757 /* main.m */; };
 		E2DB3A781BFC18410014C757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2DB3A771BFC18410014C757 /* Assets.xcassets */; };
 		E2DB3A7B1BFC18410014C757 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2DB3A791BFC18410014C757 /* MainMenu.xib */; };
 		E2DB3A861BFC18420014C757 /* PPDesignModeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3A851BFC18420014C757 /* PPDesignModeTests.m */; };
 		E2DB3A911BFC18420014C757 /* PPDesignModeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3A901BFC18420014C757 /* PPDesignModeUITests.m */; };
-		E2FE9E651C3B9ED2007585DA /* PPConcreteCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9E641C3B9ED2007585DA /* PPConcreteCompany.m */; };
+		E2FE9E691C3BA1BA007585DA /* MobileBrand.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9E681C3BA1BA007585DA /* MobileBrand.m */; };
+		E2FE9E6C1C3BA1CF007585DA /* MobileSoftware.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9E6B1C3BA1CF007585DA /* MobileSoftware.m */; };
+		E2FE9E6F1C3BA1F2007585DA /* MobileBrandM.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9E6E1C3BA1F2007585DA /* MobileBrandM.m */; };
+		E2FE9E721C3BAA83007585DA /* MobileContact.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9E711C3BAA83007585DA /* MobileContact.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,30 +86,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E23E522F1C07206600CE78D0 /* Sneakers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sneakers.h; path = "DecoratePattern(装饰模式)/Sneakers.h"; sourceTree = "<group>"; };
-		E23E52301C07206600CE78D0 /* Sneakers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sneakers.m; path = "DecoratePattern(装饰模式)/Sneakers.m"; sourceTree = "<group>"; };
-		E23E52311C07206600CE78D0 /* Suit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Suit.h; path = "DecoratePattern(装饰模式)/Suit.h"; sourceTree = "<group>"; };
-		E23E52321C07206600CE78D0 /* Suit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Suit.m; path = "DecoratePattern(装饰模式)/Suit.m"; sourceTree = "<group>"; };
-		E23E52351C07208F00CE78D0 /* PPComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPComponent.h; path = "DecoratePattern(装饰模式)/PPComponent.h"; sourceTree = "<group>"; };
-		E23E52361C07208F00CE78D0 /* PPComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPComponent.m; path = "DecoratePattern(装饰模式)/PPComponent.m"; sourceTree = "<group>"; };
-		E23E52371C07208F00CE78D0 /* PPConcreteComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPConcreteComponent.h; path = "DecoratePattern(装饰模式)/PPConcreteComponent.h"; sourceTree = "<group>"; };
-		E23E52381C07208F00CE78D0 /* PPConcreteComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPConcreteComponent.m; path = "DecoratePattern(装饰模式)/PPConcreteComponent.m"; sourceTree = "<group>"; };
-		E23E52391C07208F00CE78D0 /* PPConcreteDecoratorComponentA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPConcreteDecoratorComponentA.h; path = "DecoratePattern(装饰模式)/PPConcreteDecoratorComponentA.h"; sourceTree = "<group>"; };
-		E23E523A1C07208F00CE78D0 /* PPConcreteDecoratorComponentA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPConcreteDecoratorComponentA.m; path = "DecoratePattern(装饰模式)/PPConcreteDecoratorComponentA.m"; sourceTree = "<group>"; };
-		E23E523B1C07208F00CE78D0 /* PPConcreteDecoratorComponentB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPConcreteDecoratorComponentB.h; path = "DecoratePattern(装饰模式)/PPConcreteDecoratorComponentB.h"; sourceTree = "<group>"; };
-		E23E523C1C07208F00CE78D0 /* PPConcreteDecoratorComponentB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPConcreteDecoratorComponentB.m; path = "DecoratePattern(装饰模式)/PPConcreteDecoratorComponentB.m"; sourceTree = "<group>"; };
-		E23E523D1C07208F00CE78D0 /* PPDecoratorComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPDecoratorComponent.h; path = "DecoratePattern(装饰模式)/PPDecoratorComponent.h"; sourceTree = "<group>"; };
-		E23E523E1C07208F00CE78D0 /* PPDecoratorComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPDecoratorComponent.m; path = "DecoratePattern(装饰模式)/PPDecoratorComponent.m"; sourceTree = "<group>"; };
-		E23E52441C07209E00CE78D0 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = People.h; path = "DecoratePattern(装饰模式)/People.h"; sourceTree = "<group>"; };
-		E23E52451C07209E00CE78D0 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = People.m; path = "DecoratePattern(装饰模式)/People.m"; sourceTree = "<group>"; };
-		E23E52461C07209E00CE78D0 /* PPBigTrouser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPBigTrouser.h; path = "DecoratePattern(装饰模式)/PPBigTrouser.h"; sourceTree = "<group>"; };
-		E23E52471C07209E00CE78D0 /* PPBigTrouser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPBigTrouser.m; path = "DecoratePattern(装饰模式)/PPBigTrouser.m"; sourceTree = "<group>"; };
-		E23E52481C07209E00CE78D0 /* PPFinery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPFinery.h; path = "DecoratePattern(装饰模式)/PPFinery.h"; sourceTree = "<group>"; };
-		E23E52491C07209E00CE78D0 /* PPFinery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPFinery.m; path = "DecoratePattern(装饰模式)/PPFinery.m"; sourceTree = "<group>"; };
-		E23E524A1C07209E00CE78D0 /* PPSuit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPSuit.h; path = "DecoratePattern(装饰模式)/PPSuit.h"; sourceTree = "<group>"; };
-		E23E524B1C07209E00CE78D0 /* PPSuit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPSuit.m; path = "DecoratePattern(装饰模式)/PPSuit.m"; sourceTree = "<group>"; };
-		E23E524C1C07209E00CE78D0 /* PPTShirts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPTShirts.h; path = "DecoratePattern(装饰模式)/PPTShirts.h"; sourceTree = "<group>"; };
-		E23E524D1C07209E00CE78D0 /* PPTShirts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPTShirts.m; path = "DecoratePattern(装饰模式)/PPTShirts.m"; sourceTree = "<group>"; };
 		E23E52651C08377800CE78D0 /* AddFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddFactory.h; path = "FactoryMethodPattern(工厂方法模式)/AddFactory.h"; sourceTree = "<group>"; };
 		E23E52661C08377800CE78D0 /* AddFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddFactory.m; path = "FactoryMethodPattern(工厂方法模式)/AddFactory.m"; sourceTree = "<group>"; };
 		E23E52671C08377800CE78D0 /* DivFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DivFactory.h; path = "FactoryMethodPattern(工厂方法模式)/DivFactory.h"; sourceTree = "<group>"; };
@@ -185,14 +144,6 @@
 		E279F4471C058A2A004A20AD /* CashReturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CashReturn.m; path = "StrategyPattern(策略模式+工厂模式)/CashReturn.m"; sourceTree = "<group>"; };
 		E279F4481C058A2A004A20AD /* CashSuper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CashSuper.h; path = "StrategyPattern(策略模式+工厂模式)/CashSuper.h"; sourceTree = "<group>"; };
 		E279F4491C058A2A004A20AD /* CashSuper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CashSuper.m; path = "StrategyPattern(策略模式+工厂模式)/CashSuper.m"; sourceTree = "<group>"; };
-		E279F45F1C05A073004A20AD /* BigTrouser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BigTrouser.h; path = "DecoratePattern(装饰模式)/BigTrouser.h"; sourceTree = "<group>"; };
-		E279F4601C05A073004A20AD /* BigTrouser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BigTrouser.m; path = "DecoratePattern(装饰模式)/BigTrouser.m"; sourceTree = "<group>"; };
-		E279F4611C05A073004A20AD /* Finery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Finery.h; path = "DecoratePattern(装饰模式)/Finery.h"; sourceTree = "<group>"; };
-		E279F4621C05A073004A20AD /* Finery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Finery.m; path = "DecoratePattern(装饰模式)/Finery.m"; sourceTree = "<group>"; };
-		E279F4631C05A073004A20AD /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = "DecoratePattern(装饰模式)/Person.h"; sourceTree = "<group>"; };
-		E279F4641C05A073004A20AD /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = "DecoratePattern(装饰模式)/Person.m"; sourceTree = "<group>"; };
-		E279F4651C05A073004A20AD /* TShirts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TShirts.h; path = "DecoratePattern(装饰模式)/TShirts.h"; sourceTree = "<group>"; };
-		E279F4661C05A073004A20AD /* TShirts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TShirts.m; path = "DecoratePattern(装饰模式)/TShirts.m"; sourceTree = "<group>"; };
 		E2AAB9E01C1C1F8300B82F5E /* PPStateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPStateObject.h; path = "StatePattern(状态模式)/PPStateObject.h"; sourceTree = "<group>"; };
 		E2AAB9E11C1C1F8300B82F5E /* PPStateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPStateObject.m; path = "StatePattern(状态模式)/PPStateObject.m"; sourceTree = "<group>"; };
 		E2AAB9E31C1C20A500B82F5E /* Configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Configure.h; path = configure/Configure.h; sourceTree = "<group>"; };
@@ -234,14 +185,6 @@
 		E2AABA591C1FEAF700B82F5E /* PPRoleStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPRoleStateManager.m; path = "备忘录模式/PPRoleStateManager.m"; sourceTree = "<group>"; };
 		E2AABA5A1C1FEAF700B82F5E /* PPRoleStateMemento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPRoleStateMemento.h; path = "备忘录模式/PPRoleStateMemento.h"; sourceTree = "<group>"; };
 		E2AABA5B1C1FEAF700B82F5E /* PPRoleStateMemento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPRoleStateMemento.m; path = "备忘录模式/PPRoleStateMemento.m"; sourceTree = "<group>"; };
-		E2AABA6A1C1FF38800B82F5E /* PPCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPCompany.h; path = "组合模式/PPCompany.h"; sourceTree = "<group>"; };
-		E2AABA6B1C1FF38800B82F5E /* PPCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPCompany.m; path = "组合模式/PPCompany.m"; sourceTree = "<group>"; };
-		E2AABA6D1C1FF3B300B82F5E /* PPComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPComponent.h; path = "组合模式/PPComponent.h"; sourceTree = "<group>"; };
-		E2AABA6E1C1FF3B300B82F5E /* PPComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPComponent.m; path = "组合模式/PPComponent.m"; sourceTree = "<group>"; };
-		E2AABA6F1C1FF3B300B82F5E /* PPComposite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPComposite.h; path = "组合模式/PPComposite.h"; sourceTree = "<group>"; };
-		E2AABA701C1FF3B300B82F5E /* PPComposite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPComposite.m; path = "组合模式/PPComposite.m"; sourceTree = "<group>"; };
-		E2AABA711C1FF3B300B82F5E /* PPLeaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPLeaf.h; path = "组合模式/PPLeaf.h"; sourceTree = "<group>"; };
-		E2AABA721C1FF3B300B82F5E /* PPLeaf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPLeaf.m; path = "组合模式/PPLeaf.m"; sourceTree = "<group>"; };
 		E2DB3A6E1BFC18410014C757 /* PPDesignMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPDesignMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DB3A711BFC18410014C757 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2DB3A721BFC18410014C757 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -255,8 +198,14 @@
 		E2DB3A8C1BFC18420014C757 /* PPDesignModeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPDesignModeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DB3A901BFC18420014C757 /* PPDesignModeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPDesignModeUITests.m; sourceTree = "<group>"; };
 		E2DB3A921BFC18420014C757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E2FE9E631C3B9ED2007585DA /* PPConcreteCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPConcreteCompany.h; path = "组合模式/PPConcreteCompany.h"; sourceTree = "<group>"; };
-		E2FE9E641C3B9ED2007585DA /* PPConcreteCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPConcreteCompany.m; path = "组合模式/PPConcreteCompany.m"; sourceTree = "<group>"; };
+		E2FE9E671C3BA1BA007585DA /* MobileBrand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileBrand.h; sourceTree = "<group>"; };
+		E2FE9E681C3BA1BA007585DA /* MobileBrand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileBrand.m; sourceTree = "<group>"; };
+		E2FE9E6A1C3BA1CF007585DA /* MobileSoftware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileSoftware.h; sourceTree = "<group>"; };
+		E2FE9E6B1C3BA1CF007585DA /* MobileSoftware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileSoftware.m; sourceTree = "<group>"; };
+		E2FE9E6D1C3BA1F2007585DA /* MobileBrandM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileBrandM.h; sourceTree = "<group>"; };
+		E2FE9E6E1C3BA1F2007585DA /* MobileBrandM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileBrandM.m; sourceTree = "<group>"; };
+		E2FE9E701C3BAA83007585DA /* MobileContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileContact.h; sourceTree = "<group>"; };
+		E2FE9E711C3BAA83007585DA /* MobileContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileContact.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -323,40 +272,6 @@
 				E2AABA0B1C1EC25C00B82F5E /* PPWork.m */,
 			);
 			name = "second version";
-			sourceTree = "<group>";
-		};
-		E23E51E41C05D3CD00CE78D0 /* third method */ = {
-			isa = PBXGroup;
-			children = (
-				E23E52351C07208F00CE78D0 /* PPComponent.h */,
-				E23E52361C07208F00CE78D0 /* PPComponent.m */,
-				E23E52371C07208F00CE78D0 /* PPConcreteComponent.h */,
-				E23E52381C07208F00CE78D0 /* PPConcreteComponent.m */,
-				E23E52391C07208F00CE78D0 /* PPConcreteDecoratorComponentA.h */,
-				E23E523A1C07208F00CE78D0 /* PPConcreteDecoratorComponentA.m */,
-				E23E523B1C07208F00CE78D0 /* PPConcreteDecoratorComponentB.h */,
-				E23E523C1C07208F00CE78D0 /* PPConcreteDecoratorComponentB.m */,
-				E23E523D1C07208F00CE78D0 /* PPDecoratorComponent.h */,
-				E23E523E1C07208F00CE78D0 /* PPDecoratorComponent.m */,
-			);
-			name = "third method";
-			sourceTree = "<group>";
-		};
-		E23E51FA1C05E0D600CE78D0 /* four method */ = {
-			isa = PBXGroup;
-			children = (
-				E23E52441C07209E00CE78D0 /* People.h */,
-				E23E52451C07209E00CE78D0 /* People.m */,
-				E23E52461C07209E00CE78D0 /* PPBigTrouser.h */,
-				E23E52471C07209E00CE78D0 /* PPBigTrouser.m */,
-				E23E52481C07209E00CE78D0 /* PPFinery.h */,
-				E23E52491C07209E00CE78D0 /* PPFinery.m */,
-				E23E524A1C07209E00CE78D0 /* PPSuit.h */,
-				E23E524B1C07209E00CE78D0 /* PPSuit.m */,
-				E23E524C1C07209E00CE78D0 /* PPTShirts.h */,
-				E23E524D1C07209E00CE78D0 /* PPTShirts.m */,
-			);
-			name = "four method";
 			sourceTree = "<group>";
 		};
 		E23E52531C07268F00CE78D0 /* FactoryMethodPattern(工厂方法模式) */ = {
@@ -454,43 +369,6 @@
 			name = "StrategyPattern(策略模式+工厂模式)";
 			sourceTree = "<group>";
 		};
-		E279F4501C058EB3004A20AD /* DecoratePattern(装饰模式) */ = {
-			isa = PBXGroup;
-			children = (
-				E23E51FA1C05E0D600CE78D0 /* four method */,
-				E23E51E41C05D3CD00CE78D0 /* third method */,
-				E279F4551C0592B7004A20AD /* second method */,
-				E279F4511C058F59004A20AD /* first method */,
-			);
-			name = "DecoratePattern(装饰模式)";
-			sourceTree = "<group>";
-		};
-		E279F4511C058F59004A20AD /* first method */ = {
-			isa = PBXGroup;
-			children = (
-				E279F4631C05A073004A20AD /* Person.h */,
-				E279F4641C05A073004A20AD /* Person.m */,
-			);
-			name = "first method";
-			sourceTree = "<group>";
-		};
-		E279F4551C0592B7004A20AD /* second method */ = {
-			isa = PBXGroup;
-			children = (
-				E279F4611C05A073004A20AD /* Finery.h */,
-				E279F4621C05A073004A20AD /* Finery.m */,
-				E279F45F1C05A073004A20AD /* BigTrouser.h */,
-				E279F4601C05A073004A20AD /* BigTrouser.m */,
-				E279F4651C05A073004A20AD /* TShirts.h */,
-				E279F4661C05A073004A20AD /* TShirts.m */,
-				E23E522F1C07206600CE78D0 /* Sneakers.h */,
-				E23E52301C07206600CE78D0 /* Sneakers.m */,
-				E23E52311C07206600CE78D0 /* Suit.h */,
-				E23E52321C07206600CE78D0 /* Suit.m */,
-			);
-			name = "second method";
-			sourceTree = "<group>";
-		};
 		E2AABA141C1EC30200B82F5E /* 适配器模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -535,31 +413,6 @@
 			name = "游戏进度备忘";
 			sourceTree = "<group>";
 		};
-		E2AABA5F1C1FECCA00B82F5E /* 组合模式 */ = {
-			isa = PBXGroup;
-			children = (
-				E2AABA691C1FF35700B82F5E /* example */,
-				E2AABA6D1C1FF3B300B82F5E /* PPComponent.h */,
-				E2AABA6E1C1FF3B300B82F5E /* PPComponent.m */,
-				E2AABA6F1C1FF3B300B82F5E /* PPComposite.h */,
-				E2AABA701C1FF3B300B82F5E /* PPComposite.m */,
-				E2AABA711C1FF3B300B82F5E /* PPLeaf.h */,
-				E2AABA721C1FF3B300B82F5E /* PPLeaf.m */,
-			);
-			name = "组合模式";
-			sourceTree = "<group>";
-		};
-		E2AABA691C1FF35700B82F5E /* example */ = {
-			isa = PBXGroup;
-			children = (
-				E2AABA6A1C1FF38800B82F5E /* PPCompany.h */,
-				E2AABA6B1C1FF38800B82F5E /* PPCompany.m */,
-				E2FE9E631C3B9ED2007585DA /* PPConcreteCompany.h */,
-				E2FE9E641C3B9ED2007585DA /* PPConcreteCompany.m */,
-			);
-			name = example;
-			sourceTree = "<group>";
-		};
 		E2DB3A651BFC18410014C757 = {
 			isa = PBXGroup;
 			children = (
@@ -584,7 +437,6 @@
 			isa = PBXGroup;
 			children = (
 				E2FE9E661C3B9EF5007585DA /* 桥接模式 */,
-				E2AABA5F1C1FECCA00B82F5E /* 组合模式 */,
 				E2AABA391C1EE3F700B82F5E /* 备忘录模式 */,
 				E2AABA141C1EC30200B82F5E /* 适配器模式 */,
 				E21F7F591C184FC200E7E733 /* StatePattern(状态模式) */,
@@ -593,7 +445,6 @@
 				E23E527B1C08446B00CE78D0 /*  TemplateMode(模板模式) */,
 				E23E52741C0837CA00CE78D0 /* PrototypeMode(原型模式) */,
 				E23E52531C07268F00CE78D0 /* FactoryMethodPattern(工厂方法模式) */,
-				E279F4501C058EB3004A20AD /* DecoratePattern(装饰模式) */,
 				E279F4131C02F79E004A20AD /* StrategyPattern(策略模式+工厂模式) */,
 				E279F4121C02F74B004A20AD /* FactoryPattern(简单工厂模式) */,
 				E2DB3A711BFC18410014C757 /* AppDelegate.h */,
@@ -664,6 +515,14 @@
 		E2FE9E661C3B9EF5007585DA /* 桥接模式 */ = {
 			isa = PBXGroup;
 			children = (
+				E2FE9E671C3BA1BA007585DA /* MobileBrand.h */,
+				E2FE9E681C3BA1BA007585DA /* MobileBrand.m */,
+				E2FE9E6D1C3BA1F2007585DA /* MobileBrandM.h */,
+				E2FE9E6E1C3BA1F2007585DA /* MobileBrandM.m */,
+				E2FE9E6A1C3BA1CF007585DA /* MobileSoftware.h */,
+				E2FE9E6B1C3BA1CF007585DA /* MobileSoftware.m */,
+				E2FE9E701C3BAA83007585DA /* MobileContact.h */,
+				E2FE9E711C3BAA83007585DA /* MobileContact.m */,
 			);
 			name = "桥接模式";
 			sourceTree = "<group>";
@@ -798,23 +657,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				E23E52B81C085D2600CE78D0 /* PersonFatBuilder.m in Sources */,
-				E23E52411C07208F00CE78D0 /* PPConcreteDecoratorComponentA.m in Sources */,
 				E23E52721C08377800CE78D0 /* MulFactory.m in Sources */,
-				E23E52341C07206600CE78D0 /* Suit.m in Sources */,
 				E279F44A1C058A2A004A20AD /* CashContext.m in Sources */,
-				E23E52331C07206600CE78D0 /* Sneakers.m in Sources */,
 				E2AABA0D1C1EC25C00B82F5E /* PPEveningState.m in Sources */,
-				E279F46A1C05A073004A20AD /* TShirts.m in Sources */,
 				E279F43B1C0589F5004A20AD /* OperationMul.m in Sources */,
 				E2AABA5D1C1FEAF700B82F5E /* PPRoleStateManager.m in Sources */,
 				E23E52B71C085D2600CE78D0 /* PersonDirector.m in Sources */,
-				E279F4691C05A073004A20AD /* Person.m in Sources */,
 				E2AABA0F1C1EC25C00B82F5E /* PPNoonState.m in Sources */,
-				E23E524E1C07209E00CE78D0 /* People.m in Sources */,
 				E2AABA2C1C1ECA6700B82F5E /* PPPlayer.m in Sources */,
 				E23E528C1C084E4500CE78D0 /* AbstractClass.m in Sources */,
 				E23E526F1C08377800CE78D0 /* AddFactory.m in Sources */,
-				E23E52511C07209E00CE78D0 /* PPSuit.m in Sources */,
 				E2AABA4A1C1EF0E500B82F5E /* PPMemento.m in Sources */,
 				E279F4391C0589F5004A20AD /* OperationDiv.m in Sources */,
 				E2AABA491C1EF0E500B82F5E /* PPCaretaker.m in Sources */,
@@ -822,8 +674,6 @@
 				E279F44F1C058A2A004A20AD /* CashSuper.m in Sources */,
 				E23E52701C08377800CE78D0 /* DivFactory.m in Sources */,
 				E2AABA5C1C1FEAF700B82F5E /* PPGameRole.m in Sources */,
-				E2FE9E651C3B9ED2007585DA /* PPConcreteCompany.m in Sources */,
-				E23E52431C07208F00CE78D0 /* PPDecoratorComponent.m in Sources */,
 				E23E528D1C084E4500CE78D0 /* ConcreteClassA.m in Sources */,
 				E2AABA2B1C1ECA6700B82F5E /* PPGuardsPlayer.m in Sources */,
 				E2AABA5E1C1FEAF700B82F5E /* PPRoleStateMemento.m in Sources */,
@@ -833,15 +683,9 @@
 				E279F44D1C058A2A004A20AD /* CashRebate.m in Sources */,
 				E279F43A1C0589F5004A20AD /* OperationFactory.m in Sources */,
 				E2AABA111C1EC25C00B82F5E /* PPSleepingState.m in Sources */,
-				E23E524F1C07209E00CE78D0 /* PPBigTrouser.m in Sources */,
-				E279F4671C05A073004A20AD /* BigTrouser.m in Sources */,
 				E2AABA0E1C1EC25C00B82F5E /* PPForenoonState.m in Sources */,
-				E2AABA6C1C1FF38800B82F5E /* PPCompany.m in Sources */,
-				E2AABA751C1FF3B300B82F5E /* PPLeaf.m in Sources */,
 				E279F44B1C058A2A004A20AD /* CashFactory.m in Sources */,
 				E2AABA291C1ECA6700B82F5E /* PPCenterPlayer.m in Sources */,
-				E23E52501C07209E00CE78D0 /* PPFinery.m in Sources */,
-				E23E52421C07208F00CE78D0 /* PPConcreteDecoratorComponentB.m in Sources */,
 				E2AABA4B1C1EF0E500B82F5E /* PPOriginator.m in Sources */,
 				E23E528E1C084E4500CE78D0 /* ConcreteClassB.m in Sources */,
 				E279F4381C0589F5004A20AD /* OperationAdd.m in Sources */,
@@ -849,23 +693,21 @@
 				E279F43D1C0589F5004A20AD /* PPOperation.m in Sources */,
 				E279F43C1C0589F5004A20AD /* OperationSub.m in Sources */,
 				E2DB3A731BFC18410014C757 /* AppDelegate.m in Sources */,
+				E2FE9E6C1C3BA1CF007585DA /* MobileSoftware.m in Sources */,
 				E2AAB9E21C1C1F8300B82F5E /* PPStateObject.m in Sources */,
 				E279F44E1C058A2A004A20AD /* CashReturn.m in Sources */,
 				E23E52731C08377800CE78D0 /* SubFactory.m in Sources */,
-				E279F4681C05A073004A20AD /* Finery.m in Sources */,
 				E23E529E1C08550D00CE78D0 /* Facade.m in Sources */,
+				E2FE9E691C3BA1BA007585DA /* MobileBrand.m in Sources */,
 				E2AABA381C1EE1E100B82F5E /* PPTranslator.m in Sources */,
-				E23E52521C07209E00CE78D0 /* PPTShirts.m in Sources */,
 				E2AABA101C1EC25C00B82F5E /* PPRestState.m in Sources */,
+				E2FE9E6F1C3BA1F2007585DA /* MobileBrandM.m in Sources */,
 				E2AABA0C1C1EC25C00B82F5E /* PPAfterNoonState.m in Sources */,
 				E23E52711C08377800CE78D0 /* IFactory.m in Sources */,
 				E23E527A1C08444600CE78D0 /* Resume.m in Sources */,
-				E23E523F1C07208F00CE78D0 /* PPComponent.m in Sources */,
 				E23E52B61C085D2600CE78D0 /* PersonBuilder.m in Sources */,
-				E23E52401C07208F00CE78D0 /* PPConcreteComponent.m in Sources */,
-				E2AABA731C1FF3B300B82F5E /* PPComponent.m in Sources */,
+				E2FE9E721C3BAA83007585DA /* MobileContact.m in Sources */,
 				E279F4371C0589F5004A20AD /* Operation.m in Sources */,
-				E2AABA741C1FF3B300B82F5E /* PPComposite.m in Sources */,
 				E23E529F1C08550D00CE78D0 /* SystemOne.m in Sources */,
 				E2AABA371C1EE1E100B82F5E /* PPForeignCenterPlayer.m in Sources */,
 				E23E52B91C085D2600CE78D0 /* PersonThinBuilder.m in Sources */,

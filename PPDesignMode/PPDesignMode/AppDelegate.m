@@ -315,12 +315,37 @@
      //继续恢复之前的状态
      [gameRole recoveryState:manager.memento];
      [gameRole stateDisplay];
+      */
+    
+    //桥接模式
+    /*
+     MobileBrand* brand = [[MobileBrand alloc]init];
+     [brand PrintfClassName];
      
      
-    */
+     MobileContact* contact = [[MobileContact alloc] init];
+     [brand setMobileBrandSoftWare:contact];
+     
+     
+     [brand.softWare printfFunction];
+     
+     */
+    
+    
+  
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
     
     
     
