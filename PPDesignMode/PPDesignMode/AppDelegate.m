@@ -321,15 +321,13 @@
     /*
      MobileBrand* brand = [[MobileBrand alloc]init];
      [brand PrintfClassName];
-     
-     
      MobileContact* contact = [[MobileContact alloc] init];
      [brand setMobileBrandSoftWare:contact];
-     
-     
      [brand.softWare printfFunction];
-     
      */
+    
+    
+    
     
     
   
