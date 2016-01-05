@@ -66,6 +66,7 @@
 		E2FE9E7C1C3BB88B007585DA /* MobileBrandM.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9E761C3BB88B007585DA /* MobileBrandM.m */; };
 		E2FE9E7D1C3BB88B007585DA /* MobileContact.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9E781C3BB88B007585DA /* MobileContact.m */; };
 		E2FE9E7E1C3BB88B007585DA /* MobileSoftware.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9E7A1C3BB88B007585DA /* MobileSoftware.m */; };
+		E2FE9E851C3BBB2F007585DA /* PPWaiter.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9E841C3BBB2F007585DA /* PPWaiter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -206,6 +207,8 @@
 		E2FE9E781C3BB88B007585DA /* MobileContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MobileContact.m; path = "桥接模式/MobileContact.m"; sourceTree = "<group>"; };
 		E2FE9E791C3BB88B007585DA /* MobileSoftware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MobileSoftware.h; path = "桥接模式/MobileSoftware.h"; sourceTree = "<group>"; };
 		E2FE9E7A1C3BB88B007585DA /* MobileSoftware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MobileSoftware.m; path = "桥接模式/MobileSoftware.m"; sourceTree = "<group>"; };
+		E2FE9E831C3BBB2F007585DA /* PPWaiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPWaiter.h; path = "命令模式/PPWaiter.h"; sourceTree = "<group>"; };
+		E2FE9E841C3BBB2F007585DA /* PPWaiter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPWaiter.m; path = "命令模式/PPWaiter.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -436,6 +439,7 @@
 		E2DB3A701BFC18410014C757 /* PPDesignMode */ = {
 			isa = PBXGroup;
 			children = (
+				E2FE9E7F1C3BBAC9007585DA /* 命令模式 */,
 				E2FE9E661C3B9EF5007585DA /* 桥接模式 */,
 				E2AABA391C1EE3F700B82F5E /* 备忘录模式 */,
 				E2AABA141C1EC30200B82F5E /* 适配器模式 */,
@@ -525,6 +529,15 @@
 				E2FE9E7A1C3BB88B007585DA /* MobileSoftware.m */,
 			);
 			name = "桥接模式";
+			sourceTree = "<group>";
+		};
+		E2FE9E7F1C3BBAC9007585DA /* 命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+				E2FE9E831C3BBB2F007585DA /* PPWaiter.h */,
+				E2FE9E841C3BBB2F007585DA /* PPWaiter.m */,
+			);
+			name = "命令模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -665,6 +678,7 @@
 				E2AABA5D1C1FEAF700B82F5E /* PPRoleStateManager.m in Sources */,
 				E23E52B71C085D2600CE78D0 /* PersonDirector.m in Sources */,
 				E2AABA0F1C1EC25C00B82F5E /* PPNoonState.m in Sources */,
+				E2FE9E851C3BBB2F007585DA /* PPWaiter.m in Sources */,
 				E2AABA2C1C1ECA6700B82F5E /* PPPlayer.m in Sources */,
 				E23E528C1C084E4500CE78D0 /* AbstractClass.m in Sources */,
 				E23E526F1C08377800CE78D0 /* AddFactory.m in Sources */,
