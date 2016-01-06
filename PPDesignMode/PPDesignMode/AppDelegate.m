@@ -328,35 +328,48 @@
     
     
     //命令模式
-    //烧烤者
-    PPBarbecuer* becuer = [[PPBarbecuer alloc]init];
-    
-    //命令类
-    PPCommand* bakeMuttonCommand = [[PPBakeMuttonCommand alloc]initWithBarbecuer:becuer];
-    bakeMuttonCommand.detailCommand = @"点烤肉";
-    
-    PPCommand* bakeMuttonCommand1 = [[PPBakeMuttonCommand alloc]initWithBarbecuer:becuer];
-    bakeMuttonCommand1.detailCommand = @"点烤肉";
-    
-    PPCommand* bakeChickenWing = [[PPBakeChickenWingCommand alloc]initWithBarbecuer:becuer];
-    bakeChickenWing.detailCommand = @"点鸡翅";
-
-    //服务员类
-    PPWaiter* waiter = [[PPWaiter alloc]init];
-    [waiter setOrder:bakeMuttonCommand];
-    [waiter setOrder:bakeMuttonCommand1];
-    [waiter setOrder:bakeChickenWing];
-    [waiter Notify];
+    /*
+     //烧烤者
+     PPBarbecuer* becuer = [[PPBarbecuer alloc]init];
+     
+     //命令类
+     PPCommand* bakeMuttonCommand = [[PPBakeMuttonCommand alloc]initWithBarbecuer:becuer];
+     bakeMuttonCommand.detailCommand = @"点烤肉";
+     
+     PPCommand* bakeMuttonCommand1 = [[PPBakeMuttonCommand alloc]initWithBarbecuer:becuer];
+     bakeMuttonCommand1.detailCommand = @"点烤肉";
+     
+     PPCommand* bakeChickenWing = [[PPBakeChickenWingCommand alloc]initWithBarbecuer:becuer];
+     bakeChickenWing.detailCommand = @"点鸡翅";
+     
+     //服务员类
+     PPWaiter* waiter = [[PPWaiter alloc]init];
+     [waiter setOrder:bakeMuttonCommand];
+     [waiter setOrder:bakeMuttonCommand1];
+     [waiter setOrder:bakeChickenWing];
+     [waiter Notify];
      NSLog(@"______________________________________________");
+     
+     [waiter cancelOrder:bakeMuttonCommand1];
+     [waiter Notify];
+     */
     
-    [waiter cancelOrder:bakeMuttonCommand1];
-    [waiter Notify];
+    
+    //职责链模式
+    //加薪代码例子
+    
+    
+    
     
     
     /*
      
+     
+     
+     
+     
+     
      */
-    
     
   
     
