@@ -7,7 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "PPCommand.h"
 
 @interface PPWaiter : NSObject
+
+- (void)setOrder:(PPCommand*)command;//下单
+
+- (void)cancelOrder:(PPCommand*)command;//取消下单
+
+- (void)Notify;//通知下厨
 
 @end

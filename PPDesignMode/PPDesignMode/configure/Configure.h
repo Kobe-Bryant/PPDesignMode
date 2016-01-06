@@ -41,6 +41,12 @@
 #import "MobileBrand.h"
 #import "MobileSoftware.h"
 #import "MobileContact.h"
+#import "PPBarbecuer.h"
+#import "PPWaiter.h"
+#import "PPCommand.h"
+#import "PPBakeMuttonCommand.h"
+#import "PPBakeChickenWingCommand.h"
+
 
 
 #endif /* Configure_h */

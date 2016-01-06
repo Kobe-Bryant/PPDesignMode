@@ -67,6 +67,10 @@
 		E2FE9E7D1C3BB88B007585DA /* MobileContact.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9E781C3BB88B007585DA /* MobileContact.m */; };
 		E2FE9E7E1C3BB88B007585DA /* MobileSoftware.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9E7A1C3BB88B007585DA /* MobileSoftware.m */; };
 		E2FE9E851C3BBB2F007585DA /* PPWaiter.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9E841C3BBB2F007585DA /* PPWaiter.m */; };
+		E2FE9E881C3BBC48007585DA /* PPCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9E871C3BBC48007585DA /* PPCommand.m */; };
+		E2FE9E8B1C3CB1C9007585DA /* PPBarbecuer.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9E8A1C3CB1C9007585DA /* PPBarbecuer.m */; };
+		E2FE9E8E1C3CB56D007585DA /* PPBakeMuttonCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9E8D1C3CB56D007585DA /* PPBakeMuttonCommand.m */; };
+		E2FE9E911C3CB595007585DA /* PPBakeChickenWingCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9E901C3CB595007585DA /* PPBakeChickenWingCommand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -209,6 +213,14 @@
 		E2FE9E7A1C3BB88B007585DA /* MobileSoftware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MobileSoftware.m; path = "桥接模式/MobileSoftware.m"; sourceTree = "<group>"; };
 		E2FE9E831C3BBB2F007585DA /* PPWaiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPWaiter.h; path = "命令模式/PPWaiter.h"; sourceTree = "<group>"; };
 		E2FE9E841C3BBB2F007585DA /* PPWaiter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPWaiter.m; path = "命令模式/PPWaiter.m"; sourceTree = "<group>"; };
+		E2FE9E861C3BBC48007585DA /* PPCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPCommand.h; path = "命令模式/PPCommand.h"; sourceTree = "<group>"; };
+		E2FE9E871C3BBC48007585DA /* PPCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPCommand.m; path = "命令模式/PPCommand.m"; sourceTree = "<group>"; };
+		E2FE9E891C3CB1C9007585DA /* PPBarbecuer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPBarbecuer.h; sourceTree = "<group>"; };
+		E2FE9E8A1C3CB1C9007585DA /* PPBarbecuer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPBarbecuer.m; sourceTree = "<group>"; };
+		E2FE9E8C1C3CB56D007585DA /* PPBakeMuttonCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPBakeMuttonCommand.h; path = "命令模式/PPBakeMuttonCommand.h"; sourceTree = "<group>"; };
+		E2FE9E8D1C3CB56D007585DA /* PPBakeMuttonCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPBakeMuttonCommand.m; path = "命令模式/PPBakeMuttonCommand.m"; sourceTree = "<group>"; };
+		E2FE9E8F1C3CB595007585DA /* PPBakeChickenWingCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPBakeChickenWingCommand.h; path = "命令模式/PPBakeChickenWingCommand.h"; sourceTree = "<group>"; };
+		E2FE9E901C3CB595007585DA /* PPBakeChickenWingCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPBakeChickenWingCommand.m; path = "命令模式/PPBakeChickenWingCommand.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -534,10 +546,26 @@
 		E2FE9E7F1C3BBAC9007585DA /* 命令模式 */ = {
 			isa = PBXGroup;
 			children = (
+				E2FE9E921C3CBC10007585DA /* 库存 */,
+				E2FE9E891C3CB1C9007585DA /* PPBarbecuer.h */,
+				E2FE9E8A1C3CB1C9007585DA /* PPBarbecuer.m */,
 				E2FE9E831C3BBB2F007585DA /* PPWaiter.h */,
 				E2FE9E841C3BBB2F007585DA /* PPWaiter.m */,
+				E2FE9E861C3BBC48007585DA /* PPCommand.h */,
+				E2FE9E871C3BBC48007585DA /* PPCommand.m */,
+				E2FE9E8C1C3CB56D007585DA /* PPBakeMuttonCommand.h */,
+				E2FE9E8D1C3CB56D007585DA /* PPBakeMuttonCommand.m */,
+				E2FE9E8F1C3CB595007585DA /* PPBakeChickenWingCommand.h */,
+				E2FE9E901C3CB595007585DA /* PPBakeChickenWingCommand.m */,
 			);
 			name = "命令模式";
+			sourceTree = "<group>";
+		};
+		E2FE9E921C3CBC10007585DA /* 库存 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "库存";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -676,6 +704,7 @@
 				E279F43B1C0589F5004A20AD /* OperationMul.m in Sources */,
 				E2FE9E7C1C3BB88B007585DA /* MobileBrandM.m in Sources */,
 				E2AABA5D1C1FEAF700B82F5E /* PPRoleStateManager.m in Sources */,
+				E2FE9E8B1C3CB1C9007585DA /* PPBarbecuer.m in Sources */,
 				E23E52B71C085D2600CE78D0 /* PersonDirector.m in Sources */,
 				E2AABA0F1C1EC25C00B82F5E /* PPNoonState.m in Sources */,
 				E2FE9E851C3BBB2F007585DA /* PPWaiter.m in Sources */,
@@ -688,6 +717,7 @@
 				E2AABA491C1EF0E500B82F5E /* PPCaretaker.m in Sources */,
 				E23E52A01C08550D00CE78D0 /* SystemTwo.m in Sources */,
 				E279F44F1C058A2A004A20AD /* CashSuper.m in Sources */,
+				E2FE9E881C3BBC48007585DA /* PPCommand.m in Sources */,
 				E23E52701C08377800CE78D0 /* DivFactory.m in Sources */,
 				E2AABA5C1C1FEAF700B82F5E /* PPGameRole.m in Sources */,
 				E23E528D1C084E4500CE78D0 /* ConcreteClassA.m in Sources */,
@@ -718,7 +748,9 @@
 				E2AABA101C1EC25C00B82F5E /* PPRestState.m in Sources */,
 				E2AABA0C1C1EC25C00B82F5E /* PPAfterNoonState.m in Sources */,
 				E23E52711C08377800CE78D0 /* IFactory.m in Sources */,
+				E2FE9E8E1C3CB56D007585DA /* PPBakeMuttonCommand.m in Sources */,
 				E23E527A1C08444600CE78D0 /* Resume.m in Sources */,
+				E2FE9E911C3CB595007585DA /* PPBakeChickenWingCommand.m in Sources */,
 				E23E52B61C085D2600CE78D0 /* PersonBuilder.m in Sources */,
 				E2FE9E7B1C3BB88B007585DA /* MobileBrand.m in Sources */,
 				E279F4371C0589F5004A20AD /* Operation.m in Sources */,
