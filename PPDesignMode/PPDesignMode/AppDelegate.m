@@ -347,7 +347,7 @@
     [waiter setOrder:bakeMuttonCommand1];
     [waiter setOrder:bakeChickenWing];
     [waiter Notify];
-    NSLog(@"______________________________________________");
+     NSLog(@"______________________________________________");
     
     [waiter cancelOrder:bakeMuttonCommand1];
     [waiter Notify];
