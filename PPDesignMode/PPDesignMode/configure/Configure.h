@@ -46,7 +46,9 @@
 #import "PPCommand.h"
 #import "PPBakeMuttonCommand.h"
 #import "PPBakeChickenWingCommand.h"
-
-
+#import "PPManager.h"
+#import "PPCommonManager.h"
+#import "PPMajordomo.h"
+#import "PPGeneralManager.h"
 
 #endif /* Configure_h */

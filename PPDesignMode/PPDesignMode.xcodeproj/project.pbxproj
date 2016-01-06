@@ -72,6 +72,10 @@
 		E2FE9E911C3CB595007585DA /* PPBakeChickenWingCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9E901C3CB595007585DA /* PPBakeChickenWingCommand.m */; };
 		E2FE9E951C3CBCCF007585DA /* PPBarbecuer.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9E941C3CBCCF007585DA /* PPBarbecuer.m */; };
 		E2FE9E9C1C3CC318007585DA /* PPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9E9B1C3CC318007585DA /* PPManager.m */; };
+		E2FE9E9F1C3CC4F4007585DA /* PPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9E9E1C3CC4F4007585DA /* PPRequest.m */; };
+		E2FE9EA21C3CC5B7007585DA /* PPCommonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9EA11C3CC5B7007585DA /* PPCommonManager.m */; };
+		E2FE9EA51C3CE52F007585DA /* PPMajordomo.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9EA41C3CE52F007585DA /* PPMajordomo.m */; };
+		E2FE9EA81C3CE5D3007585DA /* PPGeneralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9EA71C3CE5D3007585DA /* PPGeneralManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -224,6 +228,14 @@
 		E2FE9E941C3CBCCF007585DA /* PPBarbecuer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPBarbecuer.m; path = "命令模式/PPBarbecuer.m"; sourceTree = "<group>"; };
 		E2FE9E9A1C3CC318007585DA /* PPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPManager.h; path = "职责链模式/PPManager.h"; sourceTree = "<group>"; };
 		E2FE9E9B1C3CC318007585DA /* PPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPManager.m; path = "职责链模式/PPManager.m"; sourceTree = "<group>"; };
+		E2FE9E9D1C3CC4F4007585DA /* PPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPRequest.h; path = "职责链模式/PPRequest.h"; sourceTree = "<group>"; };
+		E2FE9E9E1C3CC4F4007585DA /* PPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPRequest.m; path = "职责链模式/PPRequest.m"; sourceTree = "<group>"; };
+		E2FE9EA01C3CC5B7007585DA /* PPCommonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPCommonManager.h; path = "职责链模式/PPCommonManager.h"; sourceTree = "<group>"; };
+		E2FE9EA11C3CC5B7007585DA /* PPCommonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPCommonManager.m; path = "职责链模式/PPCommonManager.m"; sourceTree = "<group>"; };
+		E2FE9EA31C3CE52F007585DA /* PPMajordomo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPMajordomo.h; path = "职责链模式/PPMajordomo.h"; sourceTree = "<group>"; };
+		E2FE9EA41C3CE52F007585DA /* PPMajordomo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPMajordomo.m; path = "职责链模式/PPMajordomo.m"; sourceTree = "<group>"; };
+		E2FE9EA61C3CE5D3007585DA /* PPGeneralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPGeneralManager.h; path = "职责链模式/PPGeneralManager.h"; sourceTree = "<group>"; };
+		E2FE9EA71C3CE5D3007585DA /* PPGeneralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPGeneralManager.m; path = "职责链模式/PPGeneralManager.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -567,8 +579,16 @@
 		E2FE9E961C3CBF25007585DA /* 职责链模式 */ = {
 			isa = PBXGroup;
 			children = (
+				E2FE9E9D1C3CC4F4007585DA /* PPRequest.h */,
+				E2FE9E9E1C3CC4F4007585DA /* PPRequest.m */,
 				E2FE9E9A1C3CC318007585DA /* PPManager.h */,
 				E2FE9E9B1C3CC318007585DA /* PPManager.m */,
+				E2FE9EA01C3CC5B7007585DA /* PPCommonManager.h */,
+				E2FE9EA11C3CC5B7007585DA /* PPCommonManager.m */,
+				E2FE9EA31C3CE52F007585DA /* PPMajordomo.h */,
+				E2FE9EA41C3CE52F007585DA /* PPMajordomo.m */,
+				E2FE9EA61C3CE5D3007585DA /* PPGeneralManager.h */,
+				E2FE9EA71C3CE5D3007585DA /* PPGeneralManager.m */,
 			);
 			name = "职责链模式";
 			sourceTree = "<group>";
@@ -726,6 +746,7 @@
 				E23E52701C08377800CE78D0 /* DivFactory.m in Sources */,
 				E2AABA5C1C1FEAF700B82F5E /* PPGameRole.m in Sources */,
 				E23E528D1C084E4500CE78D0 /* ConcreteClassA.m in Sources */,
+				E2FE9EA21C3CC5B7007585DA /* PPCommonManager.m in Sources */,
 				E2AABA2B1C1ECA6700B82F5E /* PPGuardsPlayer.m in Sources */,
 				E2AABA5E1C1FEAF700B82F5E /* PPRoleStateMemento.m in Sources */,
 				E2AABA131C1EC25C00B82F5E /* PPWork.m in Sources */,
@@ -749,9 +770,12 @@
 				E279F44E1C058A2A004A20AD /* CashReturn.m in Sources */,
 				E2FE9E7D1C3BB88B007585DA /* MobileContact.m in Sources */,
 				E23E52731C08377800CE78D0 /* SubFactory.m in Sources */,
+				E2FE9EA51C3CE52F007585DA /* PPMajordomo.m in Sources */,
 				E23E529E1C08550D00CE78D0 /* Facade.m in Sources */,
 				E2AABA381C1EE1E100B82F5E /* PPTranslator.m in Sources */,
+				E2FE9E9F1C3CC4F4007585DA /* PPRequest.m in Sources */,
 				E2AABA101C1EC25C00B82F5E /* PPRestState.m in Sources */,
+				E2FE9EA81C3CE5D3007585DA /* PPGeneralManager.m in Sources */,
 				E2AABA0C1C1EC25C00B82F5E /* PPAfterNoonState.m in Sources */,
 				E23E52711C08377800CE78D0 /* IFactory.m in Sources */,
 				E2FE9E8E1C3CB56D007585DA /* PPBakeMuttonCommand.m in Sources */,

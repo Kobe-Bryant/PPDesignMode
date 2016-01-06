@@ -356,19 +356,39 @@
     
     
     //职责链模式
-    //加薪代码例子
-    
-    
-    
-    
-    
     /*
+     //加薪代码例子
+     PPCommonManager* a = [[PPCommonManager alloc]initWithName:@"张三"];
+     PPMajordomo* b = [[PPMajordomo alloc]initWithName:@"李四"];
+     PPGeneralManager* c = [[PPGeneralManager alloc]initWithName:@"王五"];
+     //设置上级
+     [a setMySuperior:b];
+     [b setMySuperior:c];
      
+     PPRequest* request = [[PPRequest alloc]init];
+     request.type = PPRequestLeaveType;
+     request.number = @1;
+     request.requestContent= @"小菜请假";
+     [a requestApplications:request];
      
+     request = [[PPRequest alloc]init];
+     request.type = PPRequestLeaveType;
+     request.number = @4;
+     request.requestContent= @"小菜请假";
+     [a requestApplications:request];
      
+     request = [[PPRequest alloc]init];
+     request.type = PPRequestRaiseType;
+     request.number = @500;
+     request.requestContent= @"小菜请求加薪";
+     [a requestApplications:request];
      
-     
-     
+     request = [[PPRequest alloc]init];
+     request.type = PPRequestRaiseType;
+     request.number = @1000;
+     request.requestContent= @"小菜请求加薪";
+     [a requestApplications:request];
+    
      */
     
   
